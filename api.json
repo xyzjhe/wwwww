@@ -1,24 +1,14 @@
 {
 	"sites": [
 		{
-			"key": "js豆瓣",
-			"name": "🐼┃豆瓣┃D首页",
+			"key": "csp_apple",
+			"name": "🍎┃苹果┃影视",
 			"type": 3,
-			"api": "./drpy2.min.js",
-			"ext": "./js/js_drpy.js",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0
-		},
-		{
-			"key": "csp_XYQ_lu1",
-			"name": "🐼️┃电视┃直播",
-			"type": 3,
-			"api": "csp_XYQHiker",
+			"api": "csp_LiteApple",
+			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "./json/ningmeng.json"
+			"filterable": 1
 		},
 		{
 			"key": "csp_BuLei",
@@ -165,16 +155,6 @@
 			"quickSearch": 1,
 			"searchable": 1,
 			"ext": "./json/乐猪.json"
-		},
-		{
-			"key": "csp_apple",
-			"name": "🍎┃苹果┃影视",
-			"type": 3,
-			"api": "csp_LiteApple",
-			"playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
 		},
 		{
 			"key": "csp_Smdyy",
@@ -753,9 +733,9 @@
 	],
 	"parses": [
 		{
-			"name": "Json轮询",
-			"type": 2,
-			"url": "Sequence"
+			"name": "Json聚合",
+			"type": 3,
+			"url": "Demo"
 		},
 		{
 			"name": "Json并发",
@@ -763,35 +743,142 @@
 			"url": "Parallel"
 		},
 		{
-			"name": "解析聚合",
-			"type": 3,
-			"url": "Demo"
+			"name": "Json轮询",
+			"type": 2,
+			"url": "Sequence"
 		},
 		{
-			"name": "Q1官解",
-			"type": 1,
-			"url": "https://parse.ikunfk.cc/parse/sign/20221230?url=",
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "刚刚走过",
-			"type": 1,
-			"url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url=",
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "风起兖州",
+			"name": "bozrc",
 			"type": 0,
-			"url": "http://jx.gbxy.net.cn/?url="
+			"url": "https://jx.bozrc.com:4433/player/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"letv",
+					"leshi",
+					"LS",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				],
+				"header": {
+					"User-Agent": ""
+				}
+			}
 		},
 		{
-			"name": "keyu",
+			"name": "懒懒",
 			"type": 1,
-			"url": "http://newjiexi.gotka.top/keyu3.php?url=",
+			"url": "http://lanlan.ckflv.cn/?url=",
+			"ext": {
+				"flag": [
+					"qiyi",
+					"qq",
+					"letv",
+					"sohu",
+					"youku",
+					"mgtv",
+					"bilibili",
+					"wasu",
+					"xigua",
+					"1905"
+				]
+			}
+		},
+		{
+			"name": "5-虾米",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
+			"name": "xmflv",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
+			"name": "365",
+			"type": 0,
+			"url": "https://chaxun.truechat365.com/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"iqiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"letv",
+					"乐视",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				]
+			}
+		},
+		{
+			"name": "parwix稳定",
+			"type": 0,
+			"url": "https://jx.bozrc.com:4433/player/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"iqiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"mgtv",
+					"芒果",
+					"letv",
+					"乐视",
+					"pptv",
+					"PPTV",
+					"sohu",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩"
+				]
+			}
+		},
+		{
+			"name": "1-26db",
+			"type": 0,
+			"url": "http://vip.26db.cn/g/?url="
+		},
+		{
+			"name": "3-看看",
+			"type": 0,
+			"url": "https://jx.m3u8.pw/?url="
+		},
+		{
+			"name": "4-FreeOK",
+			"type": 0,
+			"url": "https://play.86516.tk/OKPlayer/?url="
+		},
+		{
+			"name": "7-parwix1",
+			"type": 0,
+			"url": "https://jx.bozrc.com:4433/player/?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -811,12 +898,26 @@
 					"bilibili",
 					"哔哩哔哩",
 					"哔哩"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
+				]
 			}
+		},
+		{
+			"name": "11-鸿途PCUA",
+			"type": 0,
+			"url": "https://h5.freejson.xyz/player/?url="
 		}
+	],
+	"flags": [
+		"youku",
+		"qq",
+		"iqiyi",
+		"qiyi",
+		"letv",
+		"sohu",
+		"tudou",
+		"pptv",
+		"mgtv",
+		"wasu"
 	],
 	"ijk": [
 		{
