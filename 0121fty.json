@@ -299,7 +299,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./Nmys/nmys.json"
+      "ext": "./nmys.json"
     },
     {
       "key": "csp_Ysgc",
@@ -439,7 +439,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./XPath/dj看球.json"
+      "ext": "./dj看球.json"
     },
     {
       "key": "csp_XYQBiu_310直播",
@@ -459,7 +459,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./XPath/企鹅直播.json"
+      "ext": "./企鹅直播.json"
     },
     {
       "key": "csp_xBPQ_zf",
@@ -585,7 +585,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./XPathFilter/6d.json"
+      "ext": "./6d.json"
     },
     {
       "key": "csp_xBPQ_子子影视",
@@ -724,15 +724,7 @@
       "filterable": 1,
       "ext": "./Bili/高中课堂.json"
     },
-    {
-      "key": "aa",
-      "name": "接口优先适配【影视TV】",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+    
     {
       "key": "bb",
       "name": "导航https://饭太硬.ga",
@@ -750,25 +742,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
-    },
-    {
-      "key": "local1",
-      "name": "本地化by小灰灰",
-      "type": 3,
-      "api": "",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "local2",
-      "name": "tg@TVBoxLocal",
-      "type": 3,
-      "api": "",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
     }
+    
   ],
   "parses": [
     {
