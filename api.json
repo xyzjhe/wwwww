@@ -727,7 +727,7 @@
 		{
 			"name": "redirect",
 			"type": 0,
-			"url": "./lives.txt",
+			"url": "http://45.125.46.61/zb1.txt",
 			"epg": ""
 		}
 	],
