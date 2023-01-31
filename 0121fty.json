@@ -17,6 +17,16 @@
 
   "sites": [
     {
+      "key": "csp_apple",
+      "name": "🍎苹果┃SP",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_kuaikan",
       "name": "👀快看┃SP",
       "type": 3,
@@ -150,16 +160,7 @@
       "filterable": 1,
       "ext": "http://ali.饭太硬.ml/tok"
     },
-    {
-      "key": "csp_apple",
-      "name": "🍎苹果┃SP",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    
     {
       "key": "csp_Bttoo",
       "name": "✌BTtwo┃SP",
