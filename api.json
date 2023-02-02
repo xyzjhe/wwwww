@@ -1188,5 +1188,5 @@
 		"cms.qdwght.com"
 	],
 	"wallpaper": "https://tool.weetai.cn/api",
-	"spider": "./spider.jar"
+	"spider": ".jar/0130panda.jar"
 }
