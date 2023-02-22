@@ -97,7 +97,9 @@
 				"areaName": "超管推荐",
 				"areaPic": "https://sta-op.douyucdn.cn/dycatr/850582d0a5a7cc6b9884ce0a8379ed37.png",
 				"shortName": "g_cgtj"
-			},
+			}
+		],
+		[
 			{
 				"platform": "bilibili",
 				"areaType": "1",
@@ -354,17 +356,8 @@
 				"areaName": "聊天电台",
 				"areaPic": "http://i0.hdslb.com/bfs/vc/a95b25ebec1e009870c2e3dd823e8cae50fa5223.png",
 				"shortName": null
-			},
-			
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "371",
-				"areaName": "虚拟日常",
-				"areaPic": "http://i0.hdslb.com/bfs/live/cdf8c5a456de00c456bc6dede3c19569ef2c40bf.png",
-				"shortName": null
 			}
+		
 		],
 		[
 			{
@@ -439,19 +432,9 @@
 				"areaPic": "http://i0.hdslb.com/bfs/vc/44b85dd5ead7a02dd5d3396972811cd610793ae6.png",
 				"shortName": null
 			}
-		],
-		
-		
-		[
-			{
-				"platform": "bilibili",
-				"areaType": "300",
-				"typeName": "购物",
-				"areaId": "300000",
-				"areaName": "购物",
-				"areaPic": "",
-				"shortName": null
-			}
 		]
+		
+		
+		
 	]
 }
