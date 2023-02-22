@@ -439,17 +439,7 @@
 				"shortName": "sweettalk"
 			}
 		],
-		[
-			{
-				"platform": "douyu",
-				"areaType": "19",
-				"typeName": "京斗云",
-				"areaId": "1220",
-				"areaName": "京斗云",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/dd279e079ad01c2fc99be0a08eee6a94.png",
-				"shortName": "jdy"
-			}
-		],
+		
 		[
 			{
 				"platform": "douyu",
