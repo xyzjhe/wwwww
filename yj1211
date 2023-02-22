@@ -13,6 +13,15 @@
 				"shortName": "dance"
 			},
 			{
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "207",
+				"areaName": "舞见",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/5837fa9608fab6c1465ec29c5abecab44f7bc376.png",
+				"shortName": null
+			},
+			{
 				"platform": "douyu",
 				"areaType": "2",
 				"typeName": "娱乐天地",
