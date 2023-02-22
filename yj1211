@@ -7,6 +7,15 @@
 				"platform": "douyu",
 				"areaType": "2",
 				"typeName": "娱乐天地",
+				"areaId": "1008",
+				"areaName": "舞蹈",
+				"areaPic": "https://sta-op.douyucdn.cn/dycatr/dd57cde52a3fec6c326172c481622e3f.png",
+				"shortName": "dance"
+			},
+			{
+				"platform": "douyu",
+				"areaType": "2",
+				"typeName": "娱乐天地",
 				"areaId": "174",
 				"areaName": "二次元",
 				"areaPic": "https://sta-op.douyucdn.cn/dycatr/5f4a85135db4bc384888641f0f315107.jpg",
@@ -58,15 +67,7 @@
 				"shortName": "ip"
 			},
 			
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "1008",
-				"areaName": "舞蹈",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/dd57cde52a3fec6c326172c481622e3f.png",
-				"shortName": "dance"
-			},
+			
 			{
 				"platform": "douyu",
 				"areaType": "2",
@@ -88,6 +89,15 @@
 			}
 		],	
 		[	
+			{
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "207",
+				"areaName": "舞见",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/5837fa9608fab6c1465ec29c5abecab44f7bc376.png",
+				"shortName": null
+			},
 			{
 				"platform": "bilibili",
 				"areaType": "1",
@@ -115,24 +125,8 @@
 				"areaPic": "http://i0.hdslb.com/bfs/vc/14a8c9c6d0a7685091db270cb523690b9e78b523.png",
 				"shortName": null
 			},
-			{
-				"platform": "bilibili",
-				"areaType": "1",
-				"typeName": "娱乐",
-				"areaId": "207",
-				"areaName": "舞见",
-				"areaPic": "http://i0.hdslb.com/bfs/vc/5837fa9608fab6c1465ec29c5abecab44f7bc376.png",
-				"shortName": null
-			},
-			{
-				"platform": "bilibili",
-				"areaType": "1",
-				"typeName": "娱乐",
-				"areaId": "706",
-				"areaName": "情感",
-				"areaPic": "http://i0.hdslb.com/bfs/live/b2f2fad782831218717d571793e66d9be0de019b.png",
-				"shortName": null
-			},
+			
+	
 			{
 				"platform": "bilibili",
 				"areaType": "1",
@@ -140,6 +134,16 @@
 				"areaId": "399",
 				"areaName": "日常",
 				"areaPic": "http://i0.hdslb.com/bfs/vc/ba0e62a5411db65c2c24f2e38583fdbc8fb4a611.png",
+				"shortName": null
+			},
+
+            {
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "1663",
+				"areaName": "星秀",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
 				"shortName": null
 			},
 			{
@@ -151,15 +155,7 @@
 				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2135-MS.jpg",
 				"shortName": null
 			},
-			{
-				"platform": "huya",
-				"areaType": "8",
-				"typeName": "娱乐",
-				"areaId": "1663",
-				"areaName": "星秀",
-				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
-				"shortName": null
-			},
+			
 			{
 				"platform": "huya",
 				"areaType": "8",
