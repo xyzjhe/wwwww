@@ -4,6 +4,17 @@
 	"data": [
 		[
 			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "1663",
+				"areaName": "星秀",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
+				"shortName": null
+			}
+		],
+		[
+			{
 				"platform": "douyu",
 				"areaType": "1",
 				"typeName": "网游竞技",
