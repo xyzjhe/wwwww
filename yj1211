@@ -57,24 +57,7 @@
 				"areaPic": "https://cs-op.douyucdn.cn/dycatr/7d675a4fe19aa3c6b8f2c6310e6afd1c.jpg",
 				"shortName": "ip"
 			},
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "1555",
-				"areaName": "心动派对",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/b191effaa9c07a2fd51e3b9fe3c9f1d6.png",
-				"shortName": "xdpd"
-			},
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "646",
-				"areaName": "音遇恋人",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/7dd1c0b5f4f479e4414a09177882a72f.png",
-				"shortName": "yinyu"
-			},
+			
 			{
 				"platform": "douyu",
 				"areaType": "2",
