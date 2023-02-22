@@ -4,98 +4,229 @@
 	"data": [
 		[
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "1008",
-				"areaName": "舞蹈",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/dd57cde52a3fec6c326172c481622e3f.png",
-				"shortName": "dance"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "21",
+				"areaName": "视频唱见",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/72b93ddafdf63c9f0b626ad546847a3c03c92b6f.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "174",
-				"areaName": "二次元",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/5f4a85135db4bc384888641f0f315107.jpg",
-				"shortName": "ecy"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "530",
+				"areaName": "萌宅领域",
+				"areaPic": "http://message.biliimg.com/bfs/im/5ea1fc721896f02eef1d5a712cd0bb151d1b8ca5.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "311",
-				"areaName": "颜值（横屏）",
-				"areaPic": "https://cs-op.douyucdn.cn/dycatr/game_cate/9080a8bbaa0113a5f857f1e888bedca8.jpg",
-				"shortName": "XX"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "145",
+				"areaName": "视频聊天",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/14a8c9c6d0a7685091db270cb523690b9e78b523.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "175",
-				"areaName": "音乐",
-				"areaPic": "https://cs-op.douyucdn.cn/dycatr/game_cate/d585248ffbd27ee3d386f587e64e82f7.jpg",
-				"shortName": "music"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "207",
+				"areaName": "舞见",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/5837fa9608fab6c1465ec29c5abecab44f7bc376.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "124",
-				"areaName": "户外",
-				"areaPic": "https://cs-op.douyucdn.cn/dycatr/game_cate/b639e0126ab342b30680c45aa04f8f16.jpg",
-				"shortName": "HW"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "706",
+				"areaName": "情感",
+				"areaPic": "http://i0.hdslb.com/bfs/live/b2f2fad782831218717d571793e66d9be0de019b.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "194",
-				"areaName": "美食",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/589daa5da48feeb16835d841c4353244.png",
-				"shortName": "ms"
+				"platform": "bilibili",
+				"areaType": "1",
+				"typeName": "娱乐",
+				"areaId": "399",
+				"areaName": "日常",
+				"areaPic": "http://i0.hdslb.com/bfs/vc/ba0e62a5411db65c2c24f2e38583fdbc8fb4a611.png",
+				"shortName": null
 			},
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "183",
-				"areaName": "原创IP",
-				"areaPic": "https://cs-op.douyucdn.cn/dycatr/7d675a4fe19aa3c6b8f2c6310e6afd1c.jpg",
-				"shortName": "ip"
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "2135",
+				"areaName": "一起看",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2135-MS.jpg",
+				"shortName": null
 			},
-			
-		
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "1097",
-				"areaName": "趣生活",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/c6eb29c0d025794a42723e0ddcd71a8d.png",
-				"shortName": "QSH"
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "1663",
+				"areaName": "星秀",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
+				"shortName": null
 			},
-			
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "1057",
-				"areaName": "娱乐推荐",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/3b7c277053d7a988d5b2d51e28f02be7.png",
-				"shortName": "yltj"
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "2168",
+				"areaName": "颜值",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2168-MS.jpg",
+				"shortName": null
 			},
-			
 			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "斗鱼",
-				"areaId": "3515",
-				"areaName": "超管推荐",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/850582d0a5a7cc6b9884ce0a8379ed37.png",
-				"shortName": "g_cgtj"
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "4079",
+				"areaName": "交友",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/4079-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "2356",
+				"areaName": "体育",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2356-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "100022",
+				"areaName": "娱乐天地",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/100022-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "6245",
+				"areaName": "放映厅",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/6245-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "5367",
+				"areaName": "组队",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/5367-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "100044",
+				"areaName": "吃喝玩乐",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/100044-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "6861",
+				"areaName": "原创",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/6861-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "5123",
+				"areaName": "虎牙地方",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/5123-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "4089",
+				"areaName": "虎牙文化",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/4089-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "2408",
+				"areaName": "科技",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2408-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "6055",
+				"areaName": "虚拟偶像",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/6055-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "5883",
+				"areaName": "趣分享",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/5883-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "7759",
+				"areaName": "直播购",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/7759-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "6791",
+				"areaName": "旅游",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/6791-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "7785",
+				"areaName": "派对",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/7785-MS.jpg",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "7919",
+				"areaName": "配对",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/7919-MS.jpg",
+				"shortName": null
 			}
 		],
 	
