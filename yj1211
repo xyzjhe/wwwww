@@ -337,26 +337,7 @@
 				"shortName": "jiaoyu"
 			}
 		],
-		[
-			{
-				"platform": "douyu",
-				"areaType": "13",
-				"typeName": "正能量",
-				"areaId": "1584",
-				"areaName": "星星点灯",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/ff954ecd0ea3acc59bcfd68ce12b7e03.png",
-				"shortName": "xxdd"
-			},
-			{
-				"platform": "douyu",
-				"areaType": "13",
-				"typeName": "正能量",
-				"areaId": "250",
-				"areaName": "正能量",
-				"areaPic": "https://cs-op.douyucdn.cn/dycatr/game_cate/6159579ed8d8792ddf3fd30a97a91795.jpg",
-				"shortName": "znl"
-			}
-		],
+		
 		[
 			{
 				"platform": "douyu",
