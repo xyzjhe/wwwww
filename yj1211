@@ -85,9 +85,9 @@
 				"areaName": "娱乐推荐",
 				"areaPic": "https://sta-op.douyucdn.cn/dycatr/3b7c277053d7a988d5b2d51e28f02be7.png",
 				"shortName": "yltj"
-			},
-			
-			
+			}
+		],	
+		[	
 			{
 				"platform": "bilibili",
 				"areaType": "1",
