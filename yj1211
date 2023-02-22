@@ -85,24 +85,7 @@
 				"areaPic": "https://sta-op.douyucdn.cn/dycatr/dd57cde52a3fec6c326172c481622e3f.png",
 				"shortName": "dance"
 			},
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "1097",
-				"areaName": "趣生活",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/c6eb29c0d025794a42723e0ddcd71a8d.png",
-				"shortName": "QSH"
-			},
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "1191",
-				"areaName": "心动FM",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/8ce80135885aff3616ba772c47974208.png",
-				"shortName": "dtxs"
-			},
+		
 			{
 				"platform": "douyu",
 				"areaType": "2",
@@ -828,7 +811,17 @@
 				"areaPic": "http://message.biliimg.com/bfs/im/e7bdaee17440bcbbfaae898bcdb7bc3481adc5dd.png",
 				"shortName": null
 			}
+		],
+		[
+			{
+				"platform": "bilibili",
+				"areaType": "300",
+				"typeName": "购物",
+				"areaId": "300000",
+				"areaName": "购物",
+				"areaPic": "",
+				"shortName": null
+			}
 		]
-		
 	]
 }
