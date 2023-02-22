@@ -597,6 +597,54 @@
 		[
 			{
 				"platform": "douyu",
+				"areaType": "18",
+				"typeName": "语音直播",
+				"areaId": "645",
+				"areaName": "语音交友",
+				"areaPic": "https://sta-op.douyucdn.cn/dycatr/cac5684ea84f37afcec2c9c34b8f5359.png",
+				"shortName": "yyjy"
+			},
+			{
+				"platform": "douyu",
+				"areaType": "18",
+				"typeName": "语音直播",
+				"areaId": "910",
+				"areaName": "音乐之声",
+				"areaPic": "https://sta-op.douyucdn.cn/dycatr/22424e4cc7db16de64dc4e0d69b86e6c.png",
+				"shortName": "yyzs"
+			},
+			{
+				"platform": "douyu",
+				"areaType": "18",
+				"typeName": "语音直播",
+				"areaId": "441",
+				"areaName": "连麦互动",
+				"areaPic": "https://cs-op.douyucdn.cn/dycatr/7633a5e80c095f2c22ac8595bde2531d.png",
+				"shortName": "lianmaihudong"
+			},
+			{
+				"platform": "douyu",
+				"areaType": "18",
+				"typeName": "语音直播",
+				"areaId": "1015",
+				"areaName": "娱乐开黑",
+				"areaPic": "https://sta-op.douyucdn.cn/dycatr/169c69b7ae4b3186ffbe8653a31b5ff2.png",
+				"shortName": "ylkh"
+			},
+			
+			{
+				"platform": "douyu",
+				"areaType": "20",
+				"typeName": "语音互动",
+				"areaId": "3862",
+				"areaName": "交友",
+				"areaPic": "https://sta-op.douyucdn.cn/dycatr/b82eee98206e8e10948c724df2c8ed95.png",
+				"shortName": "sweettalk"
+			}
+		],
+		[
+			{
+				"platform": "douyu",
 				"areaType": "19",
 				"typeName": "京斗云",
 				"areaId": "1220",
