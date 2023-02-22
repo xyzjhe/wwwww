@@ -318,15 +318,7 @@
 				"areaPic": "https://cs-op.douyucdn.cn/dycatr/03ad1a4bbaaaf5a3ae4059959dace8da.jpg",
 				"shortName": "jlp"
 			},
-			{
-				"platform": "douyu",
-				"areaType": "11",
-				"typeName": "科技文化",
-				"areaId": "1203",
-				"areaName": "斗鱼购物",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/4170f0bd3ac4e54d2ca2a463478a6531.png",
-				"shortName": "DYGW"
-			},
+			
 			{
 				"platform": "douyu",
 				"areaType": "11",
@@ -388,53 +380,7 @@
 				"shortName": null
 			}
 		],
-		[
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "743",
-				"areaName": "TopStar",
-				"areaPic": "http://i0.hdslb.com/bfs/live/339eaff3c8c72aa7dde28c0a3eb38d58b54d8e26.png",
-				"shortName": null
-			},
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "744",
-				"areaName": "虚拟Singer",
-				"areaPic": "http://i0.hdslb.com/bfs/live/e4fdb4e56af08128f8350d3a93f42ac1cd2223f7.png",
-				"shortName": null
-			},
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "745",
-				"areaName": "虚拟Gamer",
-				"areaPic": "http://i0.hdslb.com/bfs/live/1d9c6a2dc2185aa51c0a28a27cdfd36ca3ab76c1.png",
-				"shortName": null
-			},
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "746",
-				"areaName": "虚拟声优",
-				"areaPic": "http://i0.hdslb.com/bfs/live/0c3c2c96d8d7a13bcf6147ba4afbef93b9aea70b.png",
-				"shortName": null
-			},
-			{
-				"platform": "bilibili",
-				"areaType": "9",
-				"typeName": "虚拟主播",
-				"areaId": "371",
-				"areaName": "虚拟日常",
-				"areaPic": "http://i0.hdslb.com/bfs/live/cdf8c5a456de00c456bc6dede3c19569ef2c40bf.png",
-				"shortName": null
-			}
-		],
+		
 		[
 			{
 				"platform": "bilibili",
