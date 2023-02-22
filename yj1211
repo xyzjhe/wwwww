@@ -76,15 +76,7 @@
 				"areaPic": "https://sta-op.douyucdn.cn/dycatr/c6eb29c0d025794a42723e0ddcd71a8d.png",
 				"shortName": "QSH"
 			},
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "1191",
-				"areaName": "心动FM",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/8ce80135885aff3616ba772c47974208.png",
-				"shortName": "dtxs"
-			},
+			
 			{
 				"platform": "douyu",
 				"areaType": "2",
@@ -95,15 +87,7 @@
 				"shortName": "yltj"
 			},
 			
-			{
-				"platform": "douyu",
-				"areaType": "2",
-				"typeName": "娱乐天地",
-				"areaId": "3515",
-				"areaName": "超管推荐",
-				"areaPic": "https://sta-op.douyucdn.cn/dycatr/850582d0a5a7cc6b9884ce0a8379ed37.png",
-				"shortName": "g_cgtj"
-			},
+			
 			{
 				"platform": "bilibili",
 				"areaType": "1",
@@ -185,15 +169,7 @@
 				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2168-MS.jpg",
 				"shortName": null
 			},
-			{
-				"platform": "huya",
-				"areaType": "8",
-				"typeName": "娱乐",
-				"areaId": "4079",
-				"areaName": "交友",
-				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/4079-MS.jpg",
-				"shortName": null
-			},
+			
 			{
 				"platform": "huya",
 				"areaType": "8",
@@ -221,15 +197,7 @@
 				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/6245-MS.jpg",
 				"shortName": null
 			},
-			{
-				"platform": "huya",
-				"areaType": "8",
-				"typeName": "娱乐",
-				"areaId": "5367",
-				"areaName": "组队",
-				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/5367-MS.jpg",
-				"shortName": null
-			},
+			
 			{
 				"platform": "huya",
 				"areaType": "8",
