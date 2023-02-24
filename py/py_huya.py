@@ -17,10 +17,11 @@ class Spider(Spider):
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"一起看": "一起看",
+			
             "星秀": "星秀",
             "二次元": "二次元",
-			"网游竞技": "网游竞技"
+			"一起看": "一起看"
+			
 		}
 		classes = []
 		for k in cateManual:
@@ -108,7 +109,7 @@ class Spider(Spider):
 		ja = jo['stream']['baseSteamInfoList'][0]['sStreamName']
 		je = jo['stream']['baseSteamInfoList'][0]['newCFlvAntiCode']
 		
-		url = 'http://al.flv.huya.com/src/' + ja + '.flv?' + je + '&u=0'
+		url = 'http://tx.flv.huya.com/src/' + ja + '.flv?' + je + 
 
 		result["parse"] = 0
 		result["playUrl"] = ''
