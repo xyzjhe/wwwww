@@ -13,6 +13,15 @@
 				"shortName": "dance"
 			},
 			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "1663",
+				"areaName": "星秀",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
+				"shortName": null
+			},
+			{
 				"platform": "bilibili",
 				"areaType": "1",
 				"typeName": "娱乐",
@@ -102,9 +111,18 @@
 				"platform": "bilibili",
 				"areaType": "1",
 				"typeName": "娱乐",
-				"areaId": "207",
-				"areaName": "舞见",
-				"areaPic": "http://i0.hdslb.com/bfs/vc/5837fa9608fab6c1465ec29c5abecab44f7bc376.png",
+				"areaId": "530",
+				"areaName": "萌宅领域",
+				"areaPic": "http://message.biliimg.com/bfs/im/5ea1fc721896f02eef1d5a712cd0bb151d1b8ca5.png",
+				"shortName": null
+			},
+			{
+				"platform": "huya",
+				"areaType": "8",
+				"typeName": "娱乐",
+				"areaId": "2135",
+				"areaName": "一起看",
+				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2135-MS.jpg",
 				"shortName": null
 			},
 			{
@@ -116,15 +134,7 @@
 				"areaPic": "http://i0.hdslb.com/bfs/vc/72b93ddafdf63c9f0b626ad546847a3c03c92b6f.png",
 				"shortName": null
 			},
-			{
-				"platform": "bilibili",
-				"areaType": "1",
-				"typeName": "娱乐",
-				"areaId": "530",
-				"areaName": "萌宅领域",
-				"areaPic": "http://message.biliimg.com/bfs/im/5ea1fc721896f02eef1d5a712cd0bb151d1b8ca5.png",
-				"shortName": null
-			},
+			
 			{
 				"platform": "bilibili",
 				"areaType": "1",
@@ -146,24 +156,8 @@
 				"shortName": null
 			},
 
-            {
-				"platform": "huya",
-				"areaType": "8",
-				"typeName": "娱乐",
-				"areaId": "1663",
-				"areaName": "星秀",
-				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/1663-MS.jpg",
-				"shortName": null
-			},
-			{
-				"platform": "huya",
-				"areaType": "8",
-				"typeName": "娱乐",
-				"areaId": "2135",
-				"areaName": "一起看",
-				"areaPic": "https://huyaimg.msstatic.com/cdnimage/game/2135-MS.jpg",
-				"shortName": null
-			},
+            
+			
 			
 			{
 				"platform": "huya",
