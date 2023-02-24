@@ -109,7 +109,7 @@ class Spider(Spider):
 		ja = jo['stream']['baseSteamInfoList'][0]['sStreamName']
 		je = jo['stream']['baseSteamInfoList'][0]['newCFlvAntiCode']
 		
-		url = 'http://tx.flv.huya.com/src/' + ja + '.flv?' + je + 
+		url = 'http://tx.flv.huya.com/src/' + ja + '.flv?' + je
 
 		result["parse"] = 0
 		result["playUrl"] = ''
