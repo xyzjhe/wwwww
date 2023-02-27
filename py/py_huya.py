@@ -36,6 +36,26 @@ class Spider(Spider):
 		return result
 	def homeVideoContent(self):
 		result = {}
+
+		url = 'http://live.yj1211.work/api/live/getRecommendByPlatformArea?platform=huya&size=20&area=星秀&page=1'.format()
+		rsp = self.fetch(url)
+		content = rsp.text
+		jo = json.loads(content)
+		videos = []
+		vodList = jo['data']
+		for vod in vodList:
+			aid = (vod['roomId']).strip()
+			title = vod['roomName'].strip()
+			img = vod['roomPic'].strip()
+			remark = (vod['ownerName']).strip()
+			videos.append({
+				"vod_id": aid,
+				"vod_name": title,
+				"vod_pic": img,
+				"vod_remarks": remark
+			})
+		result['list'] = videos
+
 		return result
 	def categoryContent(self,tid,pg,filter,extend):
 		result = {}
