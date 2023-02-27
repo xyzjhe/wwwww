@@ -36,7 +36,24 @@ class Spider(Spider):
 		return result
 	def homeVideoContent(self):
 		result = {}
-		
+		url = 'https://m.douyu.com/api/room/list?type=dance&page=1'.format()
+		rsp = self.fetch(url)
+		content = rsp.text
+		jo = json.loads(content)
+		videos = []
+		vodList = jo['data']['list']
+		for vod in vodList:
+			aid = vod['rid']
+			title = vod['roomName'].strip()
+			img = vod['roomSrc'].strip()
+			remark = (vod['nickname']).strip()
+			videos.append({
+				"vod_id": aid,
+				"vod_name": title,
+				"vod_pic": img,
+				"vod_remarks": remark
+			})
+		result['list'] = videos
 		
 		return result
 	def categoryContent(self,tid,pg,filter,extend):
