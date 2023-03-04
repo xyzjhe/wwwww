@@ -20,8 +20,8 @@ class Spider(Spider):
 			
             "星秀": "星秀",
             "二次元": "二次元",
-			"一起看": "一起看",
-			"全部": ""
+			"一起看": "一起看"
+			
 			
 		}
 		classes = []
@@ -38,7 +38,7 @@ class Spider(Spider):
 	def homeVideoContent(self):
 		result = {}
 
-		url = 'http://live.yj1211.work/api/live/getRecommendByPlatformArea?platform=huya&size=20&area=星秀&page=1'.format()
+		url = 'http://live.yj1211.work/api/live/getRecommendByPlatform?platform=huya&size=100&area=&page=1'.format()
 		rsp = self.fetch(url)
 		content = rsp.text
 		jo = json.loads(content)
