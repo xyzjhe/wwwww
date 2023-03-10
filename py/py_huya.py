@@ -124,12 +124,11 @@ class Spider(Spider):
 		result = {}
 
 		  url = 'http://live.yj1211.work/api/live/getRealUrl?platform=huya&roomId={0}'.format(id)
-          rsp = self.fetch(url)
-          jRoot = json.loads(rsp.text)
-          jo = jRoot['data']
-          ja = jo['OD']
-          url = ja
-
+           rsp = self.fetch(url)
+           jRoot = json.loads(rsp.text)
+           jo = jRoot['data']
+           ja = jo['OD']
+           url = ja
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
