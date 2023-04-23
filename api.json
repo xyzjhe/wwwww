@@ -95,7 +95,7 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1,
-      
+      "jar":"https://framagit.org/live86/xyqtvbox/-/raw/master/custom_spider.jar",
       "ext":"https://framagit.org/live86/xyqtvbox/-/raw/master/XYQHiker/%E7%88%B1%E7%9C%8B%E5%BD%B1%E8%A7%86.json"
     },
     {
