@@ -1647,7 +1647,7 @@ class Spider(Spider):
             "vod_area": "bilidanmu",
             "vod_remarks": remark,  # 不会显示
          #   'vod_tag': 'folder',  # 不会显示
-            "vod_actor": "　".join(status)+date,
+            "vod_actor": "　".join(status)+' 日期:'+date,
             "vod_content": desc
         }
         secondP = []
