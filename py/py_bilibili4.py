@@ -1621,6 +1621,7 @@ class Spider(Spider):
         up_name = jo['owner']['name']
         desc = jo['desc'].strip()
         typeName = jo['tname']
+        year = time.strftime("%Y%m%d", time.localtime(jo['pubdate']))  # 投稿时间本地年月日表示
         date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(jo['pubdate']))  # 投稿时间本地年月日表示
         stat = jo['stat']
         # 演员项展示视频状态，包括以下内容：
@@ -1642,11 +1643,11 @@ class Spider(Spider):
             "vod_name": title, 
             "vod_pic": pic,
             "type_name": typeName,
-            "vod_year": date,
+            "vod_year": year,
             "vod_area": "bilidanmu",
             "vod_remarks": remark,  # 不会显示
          #   'vod_tag': 'folder',  # 不会显示
-            "vod_actor": "　".join(status),
+            "vod_actor": "　".join(status)+date,
             "vod_content": desc
         }
         secondP = []
