@@ -1621,7 +1621,7 @@ class Spider(Spider):
         up_name = jo['owner']['name']
         desc = jo['desc'].strip()
         typeName = jo['tname']
-        date = time.strftime("%Y%m%d", time.localtime(jo['pubdate']))  # 投稿时间本地年月日表示
+        date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(jo['pubdate']))  # 投稿时间本地年月日表示
         stat = jo['stat']
         # 演员项展示视频状态，包括以下内容：
         status = []
