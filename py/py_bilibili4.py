@@ -1647,8 +1647,8 @@ class Spider(Spider):
             "vod_area": "bilidanmu",
             "vod_remarks": remark,  # 不会显示
          #   'vod_tag': 'folder',  # 不会显示
-            "vod_actor": "　".join(status)+' 日期:'+date,
-            "vod_content": desc
+            "vod_actor": "　".join(status),
+            "vod_content": ' 日期:'+date+desc
         }
         secondP = []
         if self.userid:
