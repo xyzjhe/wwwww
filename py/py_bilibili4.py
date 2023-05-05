@@ -680,7 +680,8 @@ class Spider(Spider):
     def get_found(self, tid, rid, pg):
         result = {}
         if tid == '推荐':
-            url = 'https://api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd?fresh_type=4&feed_version=V8&fresh_idx={0}&fresh_idx_1h={0}&brush={0}&homepage_ver=1&ps={1}'.format(pg, self.userConfig['page_size'])
+            url = 'https://api.bilibili.com/x/web-interface/index/top/feed/rcmd?ps={1}&pn={0}'.format(pg,self.userConfig['page_size'])
+            #url = 'https://api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd?fresh_type=4&feed_version=V8&fresh_idx={0}&fresh_idx_1h={0}&brush={0}&homepage_ver=1&ps={1}'.format(pg, self.userConfig['page_size'])
             rsp = self._get_sth(url)
         else:
             url = 'https://api.bilibili.com/x/web-interface/ranking/v2?rid={0}&type={1}'.format(rid, tid)
