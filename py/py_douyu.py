@@ -17,9 +17,9 @@ class Spider(Spider):
 	def homeContent(self,filter):
 		result = {}
 		cateManual = {
-			"舞蹈": "dance",
+			"星秀": "xingxiu",
             "二次元": "ecy",
-            "颜值": "XX",
+            "颜值": "yz",
 			"一起看": "yqk"
 			
 		}
@@ -36,7 +36,7 @@ class Spider(Spider):
 		return result
 	def homeVideoContent(self):
 		result = {}
-		url = 'https://m.douyu.com/api/room/list?type=dance&page=1'.format()
+		url = 'https://m.douyu.com/api/room/list?type=yqk&page=1'.format()
 		rsp = self.fetch(url)
 		content = rsp.text
 		jo = json.loads(content)
