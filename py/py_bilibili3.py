@@ -162,7 +162,7 @@ class Spider(Spider):  # 元类 默认的元类 type
     def getCookie(self):
 
         #在下方cookies_str  后面 双引号里面放置你的cookies
-        cookies_str = "buvid3=AC480466-F467-A4EC-B6C9-F3AA95709A0317408infoc; b_nut=1666763017; i-wanna-go-back=-1; _uuid=78D59351-FCD6-9286-E6E6-3A61F7B51E51020243infoc; buvid4=48ED2AFE-1086-B1D6-1E70-EE63A3A290B018702-022102613-JdiOxEHSqmFWaoE98FdXXw%3D%3D; buvid_fp_plain=undefined; nostalgia_conf=-1; rpdid=|(k|k~YJm|RR0J'uYY)Ylk|uk; is-2022-channel=1; CURRENT_QUALITY=80; hit-new-style-dyn=0; hit-dyn-v2=1; CURRENT_FNVAL=4048; header_theme_version=CLOSE; home_feed_column=4; PVID=1; FEED_LIVE_VERSION=V8; CURRENT_PID=92c02dd0-e7d2-11ed-8c32-af9fad4d49a2; browser_resolution=1366-635; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; fingerprint=7caff65a06d800ddc2bf5b770547e75d; buvid_fp=7caff65a06d800ddc2bf5b770547e75d; b_ut=5; innersign=0; b_lsid=22D10F1039_187E629F8DB; SESSDATA=57395191%2C1698745722%2C515f9%2A52; bili_jct=b9c77c6f69e63a1cef546a6be721817f; sid=oh7yfz1b"
+        cookies_str = "innersign=0; buvid3=1F8A2A0E-F739-702E-7475-4CBDCB99D5CC38093infoc; b_nut=1684154638; i-wanna-go-back=-1; b_ut=7; b_lsid=65A10B332_1881F70510F; _uuid=F10A93871-89F6-B15D-DC66-69F28AE5ABDC34527infoc; FEED_LIVE_VERSION=V8; header_theme_version=undefined; buvid4=210B0A6D-5544-BB0A-1309-9B936F96373739125-023051520-ztKcD+Ah2fSUh5SCSJ6FIQ%3D%3D; buvid_fp=4fe930dc613f3dfe5ec75381282c27cf; SESSDATA=1933ae49%2C1699706661%2Cdb48b%2A52; bili_jct=8bebbfa6f9617b137a857334a5d06966; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; sid=eid8fgo4; browser_resolution=1280-569; home_feed_column=4"
         if cookies_str:
             cookies =  dict([co.strip().split('=') for co in cookies_str.split(';')])
             bili_jct = cookies['bili_jct']
