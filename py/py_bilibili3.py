@@ -616,21 +616,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
             return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
 
-        elif tid == 'AI孙燕姿':
-            self.box_video_type = 'AI孙燕姿'
-
-            cid = 'AI孙燕姿'
-            
-            duration_diff='0'
-            if 'duration' in extend:
-                duration_diff = extend['duration']
-
-            order = 'pubdate'
-            if 'order' in extend:
-                order = extend['order']
-
-
-            return self.get_channel(pg=pg, extend=extend,order=order,duration_diff=duration_diff)
+        
 
         elif tid == '频道':
             self.box_video_type = '频道'
