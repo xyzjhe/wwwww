@@ -616,6 +616,22 @@ class Spider(Spider):  # 元类 默认的元类 type
 
             return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
 
+        elif tid == 'AI孙燕姿':
+            self.box_video_type = 'AI孙燕姿'
+
+            cid = '舞蹈'
+            
+            duration_diff='0'
+            if 'duration' in extend:
+                duration_diff = extend['duration']
+
+            order = 'pubdate'
+            if 'order' in extend:
+                order = extend['order']
+
+
+            return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
+
         elif tid == '频道':
             self.box_video_type = '频道'
 
@@ -1080,7 +1096,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 ]
             },
                 {"key": "cid", "name": "分类",
-                    "value":[{'n{'n': 'AI孙燕姿', 'v': 'AI孙燕姿'},': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '南妹儿', 'v': '南妹儿'},{'n': '三岁伊', 'v': '三岁伊'},{'n': '小水熙', 'v': '小水熙'},{'n': '苏恩', 'v': '苏恩Olivia'},{'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
+                    "value":[{{'n': 'AI孙燕姿', 'v': 'AI孙燕姿'},'n': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '南妹儿', 'v': '南妹儿'},{'n': '三岁伊', 'v': '三岁伊'},{'n': '小水熙', 'v': '小水熙'},{'n': '苏恩', 'v': '苏恩Olivia'},{'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
                 },
                 {
                     "key": "duration",
@@ -1146,6 +1162,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 
                 ]
             },
+            
                 {
                     "key": "duration",
                     "name": "时长",
@@ -1172,6 +1189,69 @@ class Spider(Spider):  # 元类 默认的元类 type
                         }
                     ]
                 }],
+         "AI孙燕姿"": [{
+                "key": "order",
+                "name": "排序",
+                "value": [
+
+                 {
+                        "n": "综合排序",
+                        "v": "totalrank"
+                    },
+
+                    {
+                        "n": "最新发布",
+                        "v": "pubdate"
+                    },
+
+                    {
+                        "n": "最多点击",
+                        "v": "click"
+                    },
+                     {
+                        "n": "最多收藏",
+                        "v": "stow"
+                    },
+
+
+
+                    {
+                        "n": "最多弹幕",
+                        "v": "dm"
+                    },
+
+
+
+                ]
+            },
+            
+                {
+                    "key": "duration",
+                    "name": "时长",
+                    "value": [{
+                        "n": "全部",
+                        "v": "0"
+                    },
+                        {
+                            "n": "60分钟以上",
+                            "v": "4"
+                        },
+
+                        {
+                            "n": "30~60分钟",
+                            "v": "3"
+                        },
+                        {
+                            "n": "5~30分钟",
+                            "v": "2"
+                        },
+                        {
+                            "n": "5分钟以下",
+                            "v": "1"
+                        }
+                    ]
+                }],
+       
 
          "mmd": [{
                 "key": "order",
