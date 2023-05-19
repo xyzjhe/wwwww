@@ -614,6 +614,23 @@ class Spider(Spider):  # 元类 默认的元类 type
 
             return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
 
+        elif tid == 'AI孙燕姿':
+            self.box_video_type = 'AI孙燕姿'
+
+            cid = 'AI孙燕姿'
+            
+
+            duration_diff='0'
+            if 'duration' in extend:
+                duration_diff = extend['duration']
+
+            order = 'pubdate'
+            if 'order' in extend:
+                order = extend['order']
+
+
+            return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
+
         elif tid == '频道':
             self.box_video_type = '频道'
 
@@ -1172,6 +1189,68 @@ class Spider(Spider):  # 元类 默认的元类 type
                         }
                     ]
                 }],
+         "AI孙燕姿": [{
+                "key": "order",
+                "name": "排序",
+                "value": [
+
+                 {
+                        "n": "综合排序",
+                        "v": "totalrank"
+                    },
+
+                    {
+                        "n": "最新发布",
+                        "v": "pubdate"
+                    },
+
+                    {
+                        "n": "最多点击",
+                        "v": "click"
+                    },
+                     {
+                        "n": "最多收藏",
+                        "v": "stow"
+                    },
+
+
+
+                    {
+                        "n": "最多弹幕",
+                        "v": "dm"
+                    },
+
+
+
+                ]
+            },
+                {
+                    "key": "duration",
+                    "name": "时长",
+                    "value": [{
+                        "n": "全部",
+                        "v": "0"
+                    },
+                        {
+                            "n": "60分钟以上",
+                            "v": "4"
+                        },
+
+                        {
+                            "n": "30~60分钟",
+                            "v": "3"
+                        },
+                        {
+                            "n": "5~30分钟",
+                            "v": "2"
+                        },
+                        {
+                            "n": "5分钟以下",
+                            "v": "1"
+                        }
+                    ]
+                }],
+
 
          "mmd": [{
                 "key": "order",
