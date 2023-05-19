@@ -619,7 +619,7 @@ class Spider(Spider):  # 元类 默认的元类 type
         elif tid == 'AI孙燕姿':
             self.box_video_type = 'AI孙燕姿'
 
-            cid = '舞蹈'
+            cid = 'AI孙燕姿'
             
             duration_diff='0'
             if 'duration' in extend:
@@ -630,7 +630,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 order = extend['order']
 
 
-            return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
+            return self.get_channel(pg=pg, extend=extend,order=order,duration_diff=duration_diff)
 
         elif tid == '频道':
             self.box_video_type = '频道'
@@ -1096,7 +1096,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 ]
             },
                 {"key": "cid", "name": "分类",
-                    "value":[{{'n': 'AI孙燕姿', 'v': 'AI孙燕姿'},'n': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '南妹儿', 'v': '南妹儿'},{'n': '三岁伊', 'v': '三岁伊'},{'n': '小水熙', 'v': '小水熙'},{'n': '苏恩', 'v': '苏恩Olivia'},{'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
+                    "value":[{{'n': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '南妹儿', 'v': '南妹儿'},{'n': '三岁伊', 'v': '三岁伊'},{'n': '小水熙', 'v': '小水熙'},{'n': '苏恩', 'v': '苏恩Olivia'},{'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
                 },
                 {
                     "key": "duration",
