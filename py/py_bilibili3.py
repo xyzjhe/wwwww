@@ -96,11 +96,9 @@ class Spider(Spider):  # 元类 默认的元类 type
         cateManual = {
             "推荐": "推荐",
             "新闻": "新闻",
-
             "热门": "热门",
-
             "排行榜": "排行榜",
-            "AI孙燕姿": "AI孙燕姿",
+            
             "舞蹈": "舞蹈",
             "频道": "频道",
             "直播": "直播",
@@ -616,8 +614,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 
             return self.get_channel(pg=pg, cid=cid,extend=extend,order=order,duration_diff=duration_diff)
 
-        
-
         elif tid == '频道':
             self.box_video_type = '频道'
 
@@ -826,6 +822,8 @@ class Spider(Spider):  # 元类 默认的元类 type
                 desc = jo['desc']
                 timeStamp = jo['pubdate']
                 timeArray = time.localtime(timeStamp)
+                tim = str(time.strftime("%Y-%m-%d %H:%M:%S", timeArray))
+               
                 year = str(time.strftime("%Y", timeArray))
                 m = str(time.strftime("%m", timeArray))
                 d = str(time.strftime("%d", timeArray))
@@ -845,7 +843,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                     "vod_area": self.vod_area,
                     # "vod_area":"",
                     "vod_remarks": remark,
-                    "vod_actor": "",
+                    "vod_actor": tim,
                     "vod_director": '🔥UP主:'+dire+'❤️❤️日期:'+year+'-'+m+'-'+d+'  '+h+':'+m1+':'+s,
                     "vod_content": desc + 'up主:' + dire
                 }
@@ -1082,7 +1080,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 ]
             },
                 {"key": "cid", "name": "分类",
-                    "value":[{{'n': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '南妹儿', 'v': '南妹儿'},{'n': '三岁伊', 'v': '三岁伊'},{'n': '小水熙', 'v': '小水熙'},{'n': '苏恩', 'v': '苏恩Olivia'},{'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
+                    "value":[{'n': '斗鱼', 'v': '斗鱼舞蹈'},{'n': '虎牙', 'v': '虎牙舞蹈'}, {'n': '王雨檬', 'v': '王雨檬'}, {'n': '萌七', 'v': '萌七'}, {'n': '米娜', 'v': '米娜呀'}, {'n': '周淑怡', 'v': '周淑怡'}, {'n': '沫子', 'v': '沫子'}]
                 },
                 {
                     "key": "duration",
@@ -1148,7 +1146,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 
                 ]
             },
-            
                 {
                     "key": "duration",
                     "name": "时长",
@@ -1175,7 +1172,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                         }
                     ]
                 }],
-         
+
          "mmd": [{
                 "key": "order",
                 "name": "排序",
