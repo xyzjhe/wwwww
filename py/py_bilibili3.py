@@ -1175,7 +1175,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                         }
                     ]
                 }],
-         "AI孙燕姿"": [{
+         "AI孙燕姿": [{
                 "key": "order",
                 "name": "排序",
                 "value": [
