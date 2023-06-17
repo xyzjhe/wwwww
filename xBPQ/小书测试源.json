@@ -66,11 +66,11 @@
     
     "播放标题":"name\"*\"&&\"",
     
-    "播放链接":"url\"*\"&&\"",
-    
-	"播放链接前缀": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&url=",
+    "播放链接":"http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&url=+\"url\"*\"&&\"+&code=5c7439dff2bfa09427d3feac8a77e127",
+
+	"播放链接前缀": "",
 	
-	"播放链接后缀": "&code=5c7439dff2bfa09427d3feac8a77e127",
+	"播放链接后缀": "",
     
     "跳转播放链接":"\"url\"*\"&&\"",
     
