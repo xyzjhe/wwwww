@@ -46,7 +46,7 @@
     
     "线路数组":"data",
 
-    "线路标题":data.player_info.show,
+    "线路标题":player_info.show,
     
     "影片类型":"空",
     
@@ -56,7 +56,7 @@
     
     "导演":data.vod_id,
     
-    "主演":data.player_info.show,
+    "主演":player_info.show,
     
     "简介":data.vod_content,
     
