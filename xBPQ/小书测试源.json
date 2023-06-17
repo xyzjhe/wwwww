@@ -30,18 +30,18 @@
     
     "搜索模式":"1",
     
-    "搜索url":"http://47.242.89.48/video/xiaoshu.php/list?action=plus\\&code=5c7439dff2bfa09427d3feac8a77e127&wd={wd}",
+    "搜索url":"http://47.242.89.48/video/xiaoshu.php/list?action=plus&code=5c7439dff2bfa09427d3feac8a77e127&wd={wd}",
     
     "搜索数组二次截取":"[&&]",
     
     "搜索数组":"{&&}",
     
-    "搜索图片":
+    "搜索图片":"vod_pic\"*\"&&\"",
     
     "搜索标题":"vod_name\"*\"&&\"",
     
     "搜索链接":"http://47.242.89.48/video/xiaoshu.php/detail?vod_id=\"vod_id\":\"&&\"+\\&action=plus\\&code=5c7439dff2bfa09427d3feac8a77e127",
-    "vod_pic\"*\"&&\"",
+    
     "线路数组":":{&&]",
     
     "线路标题":"show\"*\"&&\"",
