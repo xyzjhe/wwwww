@@ -44,21 +44,21 @@
     
     "搜索链接":"http://47.242.89.48/video/xiaoshu.php/detail?vod_id=+\"vod_id\":\"&&\"+&action=plus&code=5c7439dff2bfa09427d3feac8a77e127",
     
-    "线路数组":"data.vod_play_list.player_info",
+    "线路数组":data.vod_play_list.player_info,
 
-    "线路标题":"show",
+    "线路标题":show,
     
-    "影片类型":"data.vod_id",
+    "影片类型":data.vod_id,
     
     "影片年代":"",
     
     "影片地区":"",
     
-    "导演":"data.dirctor",
+    "导演":data.dirctor,
     
-    "主演":"data.vod_play_list.player_info.show",
+    "主演":data.vod_play_list.player_info.show,
     
-    "简介":"data.vod_content",
+    "简介":data.vod_content,
     
     "播放数组":"urls&&]",
     
