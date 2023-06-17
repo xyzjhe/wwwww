@@ -56,7 +56,7 @@
     
     "导演":data.vod_id,
     
-    "主演":data.vod_play_list[].player_info.show,
+    "主演":data.vod_play_list.show,
     
     "简介":data.vod_content,
     
