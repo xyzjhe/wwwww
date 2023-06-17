@@ -44,9 +44,9 @@
     
     "搜索链接":"http://47.242.89.48/video/xiaoshu.php/detail?vod_id=+\"vod_id\":\"&&\"+&action=plus&code=5c7439dff2bfa09427d3feac8a77e127",
     
-    "线路数组":"data",
+    "线路数组":"",
 
-    "线路标题":player_info.show,
+    "线路标题":"show\"*\"&&\"",
     
     "影片类型":"空",
     
@@ -56,7 +56,7 @@
     
     "导演":data.vod_id,
     
-    "主演":player_info.show,
+    "主演":data.vod_play_list.player_info.show,
     
     "简介":data.vod_content,
     
