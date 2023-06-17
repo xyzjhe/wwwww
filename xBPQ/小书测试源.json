@@ -10,7 +10,7 @@
 
     "播放请求头": "User-Agent$okhttp/3.12.11",
   
-    "强制解析":"0",
+    "强制解析":"1",
     
     "图片代理":"0",
     
@@ -68,9 +68,9 @@
     
     "播放链接":"\"url\"*\"&&\"",
 
-	"播放链接前缀": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&url=",
+	//"播放链接前缀": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&url=",
 	
-	"播放链接后缀": "&code=5c7439dff2bfa09427d3feac8a77e127",
+	//"播放链接后缀": "&code=5c7439dff2bfa09427d3feac8a77e127",
     
     "跳转播放链接":"\"url\"*\"&&\"",
     
