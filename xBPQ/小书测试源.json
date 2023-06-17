@@ -46,7 +46,7 @@
     
     "线路数组":"",
 
-    "线路标题":data.vod_play_list.player_info.show,
+    "线路标题":data.show,
     
     "影片类型":"",
     
@@ -56,7 +56,7 @@
     
     "导演":data.vod_id,
     
-    "主演":data.vod_play_list.player_info.show,
+    "主演":data.show,
     
     "简介":data.vod_content,
     
