@@ -46,15 +46,15 @@
     
     "线路数组":data.vod_play_list.player_info,
 
-    "线路标题":show,
+    "线路标题":data.vod_play_list.player_info.show,
     
-    "影片类型":data.vod_id,
+    "影片类型":"",
     
     "影片年代":"",
     
     "影片地区":"",
     
-    "导演":data.dirctor,
+    "导演":data.vod_id,
     
     "主演":data.vod_play_list.player_info.show,
     
