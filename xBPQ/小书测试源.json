@@ -75,7 +75,7 @@
     "跳转播放链接":"\"url\"*\"&&\"",
     
  
-    "分类url":"http://47.242.89.48/video/xiaoshu.php/list?type={cateId}&area={area}&by=time&limit=20&page={catePg}&action=plus&code=5c7439dff2bfa09427d3feac8a77e127;;!",
+    "分类url":"http://47.242.89.48/video/xiaoshu.php/list?type={cateId}&by=time&limit=20&page={catePg}&action=plus&code=5c7439dff2bfa09427d3feac8a77e127;;!",
     "分类":"电影$1#电视剧$2#综艺$4#动漫$3",
     
     "筛选":{
