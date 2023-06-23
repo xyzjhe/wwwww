@@ -65,6 +65,7 @@ class Spider(Spider):
         #自定义推荐标签的筛选
         'tuijianLis': [
             "热门",
+            "推荐",
             "排行榜",
             "每周必看",
             "入站必刷",
@@ -100,6 +101,8 @@ class Spider(Spider):
     #在搜索标签的筛选中固定显示搜索词
     focus_on_search_key = [
         '哈利波特',
+        '萌七',
+        '王雨檬',
         '演唱会',
         'MV',
         '假窗'
@@ -305,7 +308,7 @@ class Spider(Spider):
         return channel_dict
 
     def get_channel_list(self):
-        url = 'https://api.bilibili.com/x/web-interface/web/channel/category/channel/list?id=100&offset=0&page_size=15'
+        url = 'https://api.bilibili.com/x/web-interface/web/channel/category/channel/list?id=100&offset=0&page_size=100'
         rsp = self._get_sth(url, 'fake')
         jo = json.loads(rsp.text)
         channel_list = []
