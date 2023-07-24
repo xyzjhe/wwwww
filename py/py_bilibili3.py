@@ -162,7 +162,7 @@ class Spider(Spider):  # 元类 默认的元类 type
     def getCookie(self):
 
         #在下方cookies_str  后面 双引号里面放置你的cookies
-        cookies_str = "https://agit.ai/weigs/w/raw/branch/master/cookie.json"
+        cookies_str = 'https://agit.ai/weigs/w/raw/branch/master/cookie.json'
         if cookies_str:
             cookies =  dict([co.strip().split('=') for co in cookies_str.split(';')])
             bili_jct = cookies['bili_jct']
