@@ -24,11 +24,11 @@
   ],
 
   "sites": [
-        {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/ikanbot.js","ext": ""},
-        {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
+        {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/if_ikanbot.js","ext": ""},
+        {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/if/影视/tvb/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
         
-        {"key": "路飞搜索","name": "路飞_搜索","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/ss.js","ext": ""},
-        {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/cili.js","ext": "18+"},
+        {"key": "路飞搜索","name": "路飞_搜索","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_search3_min.js","ext": ""},
+        {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_p2p2_min.js","ext": "18+"},
 
         {"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","searchable":1},
         {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","filterable":1},
