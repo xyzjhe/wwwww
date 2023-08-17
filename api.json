@@ -24,16 +24,7 @@
   ],
 
   "sites": [
-   {
-        "key":"❤𝐹𝑜𝓃𝑔𝑀𝒾",
-        "name":"❤𝐹𝑜𝓃𝑔𝑀𝒾",
-        "type":3,
-        "api":"https://agit.ai/weigs/w/raw/branch/master/lib/live2cms.js",
-        "searchable":2,
-        "quickSearch":0,
-        "filterable":0,
-        "ext":"https://agit.ai/weigs/w/raw/branch/master/json/%e7%a3%81%e5%8a%9b%e8%bd%ac%e7%82%b9%e6%92%ad.json"
-        },
+   
 
         {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_ikanbot4_min.js","ext": ""},
         {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
