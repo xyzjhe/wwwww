@@ -26,7 +26,15 @@
   "sites": [
    
         {"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","filterable": 1},
-
+        {
+          "key":"t4_wo",
+         "name":"🚛玩偶┃T4",
+         "type":4,
+         "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=eedd16a4db7c49148a48bd57c2f82432",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1
+        },
         {
              "key": "catvod",
              "name": "T4贱贱",
