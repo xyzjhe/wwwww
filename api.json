@@ -179,7 +179,7 @@
         "api": "csp_Bili",
         "searchable": 1,
         "changeable": 0,
-        "jar": "https://agit.ai/weigs/w/raw/branch/master/jar/fm.jar",
+        "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e9ee25066054dee3891e754f566281b7",
         "ext": {
                  "type": "帕梅拉#太极拳#广场舞#演唱会#萌七#王雨檬#Minana呀#贝拉小姐姐",
                  "cookie": "buvid3=B63E1C8B-9501-0869-E181-DA73644013F084305infoc; b_nut=1684911584; CURRENT_FNVAL=4048; _uuid=D1A2A3EC-10DED-2EA10-32110-4DC1056343CD986091infoc; buvid4=092C9A12-F9C6-7BA9-5191-C79EF44C1B4E85155-023052414-ztKcD%2BAh2fQyoBrGm9%2B%2BoA%3D%3D; buvid_fp=61b0e80c623d16de2514a1211f133216; rpdid=|(YYR|mmYYm0J'uY)Rmuul)); i-wanna-go-back=-1; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; home_feed_column=5; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; b_ut=5; CURRENT_QUALITY=80; browser_resolution=2560-1297; innersign=0; b_lsid=BC71710E2_188DDEAFCA5; SESSDATA=ef441a45%2C1702902378%2Cec5c4%2A62zjMeevWTln7rW4t3serNQE5PwxXxjf3BhHabN7Y16ucHoLsbYAocAlhwnWj0di5E61HEbgAAOgA; bili_jct=e607af83ee019d1b9828933324ac7599; sid=hm4v1f64; bp_video_offset_29803158=809649117071409300; PVID=2"
