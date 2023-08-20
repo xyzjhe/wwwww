@@ -39,7 +39,7 @@
             
         {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","quickSearch":1,"filterable":1},
 
-        {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_ikanbot4_min.js","ext": ""},
+        {"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_ikanbot5_min.js","ext": ""},
         {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
         
         {"key": "路飞搜索","name": "路飞_搜索","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_search3_min.js","ext": ""},
