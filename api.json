@@ -1,7 +1,7 @@
 {
-  "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;15963d2c360e6ecab89c962fc205a9b6",
+  "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431",
   "wallpaper": "https://饭太硬.ga/深色壁纸/api.php",
-  "warningText":"好好学习，天天向上！！！",
+  
   "lives": [
     
     {
@@ -15,7 +15,7 @@
 
   "sites": [
    
-        {"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","filterable": 1},
+        {"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar;md5;043138513bc3e41ebec51665bb417ebc","filterable": 1},
         {
           "key":"t4_wo",
          "name":"🚛玩偶┃T4",
@@ -68,15 +68,7 @@
             
     
     
-    {"key":"888玩偶哥哥",
-     "name":"888玩偶哥哥┃T4",
-     "type":4,
-     "api":"http://home.jundie.top:9520/spider/csp_Wogg",
-     "searchable":1,
-     "quickSearch":1,
-     "filterable":1,
-     "changeable":0
-    },
+    
     
     {
       "key": "drpy_js_netlify",
@@ -98,17 +90,7 @@
           "filterable":1
     },
     
-    {
-      "key": "csp_WoGG",
-      "name": "玩偶┃阿里",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://w.g9.pub:66/f/ARvUE/spider.jar",
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/"
-    },
+    
     {
       "key": "MV大全",
       "name": "💽MV大全",
@@ -119,16 +101,7 @@
       "filterable": 1
     },
     
-    {
-      "key": "csp_apple",
-      "name": "🍎苹果┃SP",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+   
     	{
 		    "key":"py_bilizb2",
 		    "name":"💋B 站",
@@ -445,55 +418,8 @@
       "ext": "http://饭太硬.ga/x/json/biliych.json"
     },
     
-    {
-      "key": "csp_AppTT",
-      "name": "🐰图图┃SP",
-      "type": "3",
-      "api": "csp_AppTT",
-      "playerType": 2,
-      "searchable": "1",
-      "quickSearch": "1",
-      "filterable": "1",
-      "jar":"http://我不是.肥猫.love:63/Jar/panda230423.jar;md5;36C5A2F03CA68213DADBF4502A2F4174",
-      "ext": "dldYWXFObkhNTWlsV1pMdFNSSyN0ME1JdzVJQVJyY00=$$$Q2hpbko5UzdvNnNZbU1WVw==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ==="
-    },
-    {
-      "key": "csp_BuLei",
-      "name": "💢布雷┃SP",
-      "type": 3,
-      "api": "csp_BuLei",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://movie.bulei.cc$$$auto$$$sdlw1111$$$qqaa1122"
-    },
-    {
-      "key":"YQK_spider",
-      "name":"🙆┃一起看┃",
-      "api":"csp_YQKAPP",
-      "type":3,"
-      filterable":1,
-      "playerType":2,
-      "quickSearch":1,
-      "searchable":1,
-      "ext":"https://api-aws.11ty.top"
-      
-    },
-
-
-{
-			"key": "csp_Yht",
-			"name": "野荷塘XYQH",
-			"type": 3,
-			"api": "csp_XYQHiker",
-            "playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-             "jar":"https://agit.ai/weigs/w/raw/branch/master/XYQH.jar",
-			"ext": "https://agit.ai/weigs/w/raw/branch/master/XYQHiker/野荷塘影院.json"
-		},
+    
+   
     {
       "key": "csp_Vofl",
       "name": "🎈Voflix┃SP",
@@ -886,6 +812,10 @@
                             "更多","社 區","x u u","最 新","最新","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"
                           ]
                },
+               {"name":"暴風廣告",
+               "hosts":["bfzy","s5.bfzycdn"],
+               "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+
                {"name":"量子",
                "hosts":["vip.lz","hd.lz"],
                "regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
