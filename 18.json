@@ -3,7 +3,7 @@
 "wallpaper":"http://maoyingshi.cc/api.php",
 
 "lives": [
-    {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_p2p2_min.js","ext": "18+"},
+    
     {
       "name": "live",
       "url": "https://agit.ai/weigs/w/raw/branch/master/live/HtMB.txt",
@@ -14,6 +14,7 @@
   ],
 
 "sites":[
+  {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_p2p2_min.js","ext": "18+"},
       {"key":"csp_JavDb",
         "name":"🧲JavDb",
         "type":3,
