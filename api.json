@@ -19,7 +19,7 @@
       "key": "drpy_js_ikan",
       "name": "道长爱看",
       "type": 3,
-      "playerType":1,
+      
       "api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
       "ext": "https://agit.ai/weigs/w/raw/branch/master/js/ikanbot2.js"
     },
