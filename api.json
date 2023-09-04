@@ -15,6 +15,14 @@
 
   "sites": [
    
+   {
+      "key": "drpy_js_ikan",
+      "name": "道长爱看",
+      "type": 3,
+      "playerType":1,
+      "api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
+      "ext": "https://agit.ai/weigs/w/raw/branch/master/js/ikanbot2.js"
+    },
         {"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar;md5;043138513bc3e41ebec51665bb417ebc","filterable": 1},
         {
           "key":"t4_wo",
