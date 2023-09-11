@@ -21,6 +21,9 @@
   "sites": [
    
    
+        {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
+   
+   
         {"key":"csp_Ikanbot",
          "name": "Ikanbot",
          "type": 3,
@@ -41,7 +44,7 @@
          "quickSearch":1,
          "filterable":1
         },
-        {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
+        
 
             
         {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"","quickSearch":1,"filterable":1},
