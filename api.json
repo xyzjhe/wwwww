@@ -1,3 +1,8 @@
+//  直版 "style":{ "type":"rect" }
+//   橫版 "style":{ "type":"rect", "ratio":1.33 }
+//   正方 "style":{ "type":"rect", "ratio":1 }
+//   正圓 "style":{ "type":"oval" }
+//   橢圓 "style":{ "type":"oval", "ratio":1.1 }
 {
   "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431",
   "wallpaper": "https://饭太硬.ga/深色壁纸/api.php",
@@ -15,15 +20,10 @@
 
   "sites": [
    
-   {
-      "key": "drpy_js_ikan",
-      "name": "道长爱看",
-      "type": 3,
-      
-      "api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
-      "ext": "https://agit.ai/weigs/w/raw/branch/master/js/ikanbot2.js"
-    },
+   
         {"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar;md5;043138513bc3e41ebec51665bb417ebc","filterable": 1},
+
+
         {
           "key":"t4_wo",
          "name":"🚛玩偶┃T4",
@@ -33,17 +33,8 @@
          "quickSearch":1,
          "filterable":1
         },
-        {
-             "key": "catvod",
-             "name": "T4贱贱",
-             "type": 4,
-             "api": "http://120.53.102.254/t4/t477",
-             "playerType": 1,
-             "searchable": 1,
-             "filterable": 1,
-             "quickSearch": 0,
-             "changeable": 0
-            },
+        {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
+
             
         {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","quickSearch":1,"filterable":1},
 
@@ -53,7 +44,7 @@
         {"key": "路飞搜索","name": "路飞_搜索","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_search3_min.js","ext": ""},
         {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_p2p2_min.js","ext": ""},
 
-        {"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","searchable":1},
+       
         {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","filterable":1},
         {"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","ext":"https://czzy.fun"},
         {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar","filterable":1},
@@ -150,6 +141,7 @@
         "api": "csp_Bili",
         "searchable": 1,
         "changeable": 0,
+        "style":{ "type":"rect", "ratio":1.33 },
         "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e9ee25066054dee3891e754f566281b7",
         "ext": {
                  "type": "帕梅拉#太极拳#广场舞#演唱会#萌七#王雨檬#Minana呀#贝拉小姐姐",
@@ -385,169 +377,7 @@
 			"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
 			"ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/小书测试源.json"
 		},
-    {
-      "key": "csp_kuaikan",
-      "name": "👀快看┃SP",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-        {
-      "key": "csp_Bilibili",
-      "name": "💋哔哩哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://agit.ai/weigs/w/raw/branch/master/xp/bili.json"
-    },
-    {
-      "key": "csp_Bili",
-      "name": "哔哩合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://饭太硬.ga/x/json/bilibili.json"
-    },
-    {
-      "key": "csp_Biliych",
-      "name": "看演唱会",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "http://饭太硬.ga/x/json/biliych.json"
-    },
     
-    
-   
-    {
-      "key": "csp_Vofl",
-      "name": "🎈Voflix┃SP",
-      "type": 3,
-      "api": "csp_Voflix",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-   
-    {
-      "key": "csp_Czsapp",
-      "name": "📔厂长┃SP",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-
-    
-    {
-      "key": "csp_Bttoo",
-      "name": "✌BTtwo┃SP",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_77",
-      "name": "👒七七┃SP",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Lib",
-      "name": "🎉Lib┃SP",
-      "type": 3,
-      "api": "csp_Libvio",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tv.libvio.cc"
-    },
-    {
-      "key": "csp_Cokemv",
-      "name": "📕可乐┃SP",
-      "type": 3,
-      "api": "csp_Cokemv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    
-
-    {
-      "key": "csp_DiDuan",
-      "name": "⏮低端┃SP",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-   
-
-    {
-      "key": "csp_Auete",
-      "name": "🏝Aue┃SP",
-      "type": 3,
-      "api": "csp_Auete",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    
-    {
-      "key": "csp_Nmys",
-      "name": "🌾农民┃SP",
-      "type": 3,
-      "api": "csp_Nmys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://agit.ai/weigs/w/raw/branch/master/json/nmys.json"
-    },
-    {
-      "key": "csp_Ysgc",
-      "name": "🏭工厂┃SP",
-      "type": 3,
-      "api": "csp_Ysgc",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.ysgc.vip"
-    },
-    {
-      "key": "csp_SP360",
-      "name": "📺360┃SP",
-      "type": 3,
-      "api": "csp_SP360",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
     {
       "key": "csp_Lezhu",
       "name": "🐷乐猪┃XYQH",
@@ -562,17 +392,7 @@
       "ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/乐猪TV.json"
     },
         
-    {
-      "key": "csp_XYQBiu_酷奇",
-      "name": "🎤酷奇MV",
-      "type": 3,
-      "api": "csp_XYQBiu",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://agit.ai/weigs/w/raw/branch/master/XYQBiu/酷奇MV.json"
-    },
-
+    
     {
       "key": "csp_xBPQ_聚短视频",
       "name": "📽聚短视频",
