@@ -1,73 +1,77 @@
 {
-  "name": "小书备用源",
-  "ua": "okhttp/3.12.11",
-  "url": "http://47.242.89.48/video/xiaoshu.php",
-  "User": "空",
-  "shouye": "1",
-  "fenlei": "电视剧$/list?type=2&limit=20&page=#电影$/list?type=1&limit=20&page=#动漫$/list?type=3&limit=20&page=#综艺$/list?type=4&limit=20&page=",
-  "houzhui": "&by=time&action=spare&code=5c7439dff2bfa09427d3feac8a77e127",
-  "shifouercijiequ": "",
-  "jiequqian": "[",
-  "jiequhou": "]",
-  "jiequshuzuqian": "{",
-  "jiequshuzuhou": "}",
-  "tupianqian": "\"vod_pic\":\"",
-  "tupianhou": "\"",
-  "biaotiqian": "\"vod_name\":\"",
-  "biaotihou": "\"",
-  "lianjieqian": "\"vod_id\":\"",
-  "lianjiehou": "\"",
-  "ljqianzhui": "http://47.242.89.48/video/xiaoshu.php/detail?vod_id=",
-  "ljhouzhui": "&action=spare&code=5c7439dff2bfa09427d3feac8a77e127",
+    
+    "主页url":"",
+    
+    "站名":"小书备用源",
+    
+    "首页":"电视剧",
+    
+    "请求头":"User-Agent$okhttp/3.12.11",
+
+    "播放请求头": "User-Agent$okhttp/3.12.11",
   
-  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-  "sousuohou": "&limit=500",
-  "sousuohouzhui": "/voddetail/",
-  "ssmoshi": "0",
-  "sousuoshifouercijiequ": "0",
-  "jspic": "pic",
-  "jsname": "name",
-  "jsid": "id",
-  "ssjiequqian": "空",
-  "ssjiequhou": "空",
-  "ssjiequshuzuqian": "空",
-  "ssjiequshuzuhou": "空",
-  "sstupianqian": "空",
-  "sstupianhou": "空",
-  "ssbiaotiqian": "空",
-  "ssbiaotihou": "空",
-  "sslianjieqian": "空",
-  "sslianjiehou": "空",
-  
-  "是否启用播放线路名": "1",
-  "线路名是否二次截取": "0",
-  "线路名截取前": "空",
-  "线路名截取后": "空",
-  "线路名截取数组前": "{",
-  "线路名截取数组后": "}",
-  "线路名标题前": "\"show\":\"",
-  "线路名标题后": "\"",
-  
-  "bfshifouercijiequ": "0",
-  "bfjiequqian": "空",
-  "bfjiequhou": "空",
-  "bfjiequshuzuqian": "urls",
-  "bfjiequshuzuhou": "]",
-  "zhuangtaiqian": "\"vod_id\":\"",
-  "zhuangtaihou": "\"",
-  "daoyanqian": "\"director\":",
-  "daoyanhou": ",",
-  "zhuyanqian": "\"show\":\"",
-  "zhuyanhou": "\"",
-  "juqingqian": "\"vod_content\":\"",
-  "juqinghou": "\"",
-  "bfyshifouercijiequ": "0",
-  "bfyjiequqian": "空",
-  "bfyjiequhou": "空",
-  "bfyjiequshuzuqian": "{",
-  "bfyjiequshuzuhou": "}",
-  "bfbiaotiqian": "\"name\":\"",
-  "bfbiaotihou": "\"",
-  "bflianjieqian": "\"url\":\"",
-  "bflianjiehou": "\""
+    "强制解析":"0",
+    
+    "图片代理":"0",
+    
+    "二次截取":"[&&]",
+    
+    "数组":"{&&}",
+    
+    "图片":"vod_pic\"*\"&&\"",
+    
+    "标题":"vod_name\"*\"&&\"",
+    
+    "链接":"http://47.242.89.48/video/xiaoshu.php/detail?vod_id=+\"vod_id\":\"&&\"+&action=spare&code=5c7439dff2bfa09427d3feac8a77e127",
+	
+	  "链接前缀": "",
+	
+	  "链接后缀": "",
+    
+    "副标题":"updateInfo\":\"&&\"",
+    
+    "搜索模式":"1",
+    
+    "搜索url":"http://47.242.89.48/video/xiaoshu.php/list?action=spare&code=5c7439dff2bfa09427d3feac8a77e127&wd={wd}",
+    
+    "搜索数组二次截取":"\"list\"*[&&]",
+    
+    "搜索数组":"{&&}",
+    
+    "搜索图片":"vod_pic\"*\"&&\"",
+    
+    "搜索标题":"vod_name\"*\"&&\"",
+    
+    "搜索链接":"http://47.242.89.48/video/xiaoshu.php/detail?vod_id=+\"vod_id\":\"&&\"+&action=spare&code=5c7439dff2bfa09427d3feac8a77e127",
+
+    "线路数组":"{&&}",
+
+    "线路标题":"show\"*\"&&\"",
+    
+    "影片类型":"空",
+    
+    "影片年代":"空",
+    
+    "影片地区":"空",
+
+    "导演":"vod_id\"*\"&&\"",
+    
+    "主演":"show\"*\"&&\"",
+    
+    "简介":"vod_content\"*\"&&\"",
+    
+    "播放数组":"urls&&]",
+    
+    "播放列表":"{&&}",
+    
+    "播放标题":"name\"*\"&&\"",
+    
+    "播放链接":"\"url\"*\"&&\"",
+    
+ 
+    "分类url":"http://47.242.89.48/video/xiaoshu.php/list?type={cateId}&by=time&limit=20&page={catePg}&action=spare&code=5c7439dff2bfa09427d3feac8a77e127;;!",
+    "分类":"电影$1#电视剧$2#综艺$4#动漫$3"
+    
+    
+   
 }
