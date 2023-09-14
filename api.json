@@ -23,7 +23,16 @@
    
         {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
    
-   
+        {"key":"爱看猫",
+         "name": "爱看猫",
+         "type": 3,
+         "api": "https://gitee.com/weigsn/ys/raw/master/js/ikanbot_open.js",
+         "searchable": 1,
+         "quickSearch": 1,
+         
+         "filterable": 1
+         },
+
         {"key":"csp_Ikanbot",
          "name": "Ikanbot",
          "type": 3,
