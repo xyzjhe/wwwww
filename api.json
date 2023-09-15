@@ -204,17 +204,10 @@
          "api":"https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
          "ext":"https://agit.ai/weigs/w/raw/branch/master/js/JustLive.js"
          },
-            {
-      "key": "csp_Yj1211",
-      "name": "📽网红直播┃SP",
-      "type": 3,
-      "api": "csp_Yj1211",
-      
-      "searchable": 1,
-      "quickSearch": 1,
-      "jar": "https://agit.ai/weigs/w/raw/branch/master/jar/yj1211.jar",
-      "filterable": 1
-    },
+
+    //{"key": "csp_Yj1211","name": "📽网红直播┃SP","type": 3,"api": "csp_Yj1211","searchable": 1,"quickSearch": 1,"jar": "https://agit.ai/weigs/w/raw/branch/master/jar/yj1211.jar","filterable": 1},
+
+
         {
       "key": "py_huya",
       "name": "🐯虎牙PY",
