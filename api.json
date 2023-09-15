@@ -4,7 +4,7 @@
 //   正圓 "style":{ "type":"oval" }
 //   橢圓 "style":{ "type":"oval", "ratio":1.1 }
 {
-  "spider": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar",
+  "spider": "./ysc.jar",
   "wallpaper": "https://饭太硬.top/深色壁纸/api.php",
   
   "lives": [
@@ -300,7 +300,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+			//"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
 			"ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/小书备用源.json"
 		},
      {
@@ -312,7 +312,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+			//"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
 			"ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/小书测试源.json"
 		},
     
@@ -339,7 +339,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+      //"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
       "ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/短视频.json"
     },
 
@@ -352,7 +352,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e9ee25066054dee3891e754f566281b7",
+      "jar": "",
       "ext": ""
     }
 
