@@ -4,7 +4,7 @@
 //   正圓 "style":{ "type":"oval" }
 //   橢圓 "style":{ "type":"oval", "ratio":1.1 }
 {
-  "spider": "./ysc.jar",
+  "spider": "https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
   "wallpaper": "https://饭太硬.top/深色壁纸/api.php",
   
   "lives": [
