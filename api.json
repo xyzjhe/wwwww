@@ -62,8 +62,9 @@
         },
         
 
-            
-        {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","quickSearch":1,"filterable":1},
+        {"key": "drpy_js_netlify","name": "荐片JS","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js","ext": "https://agit.ai/weigs/w/raw/branch/master/js/%e8%8d%90%e7%89%87.js"},
+     
+        {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","searchable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","quickSearch":1,"filterable":1},
 
         //{"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/lib/lf_ikanbot5_1_min.js","ext": ""},
         {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
@@ -86,9 +87,9 @@
         {"key": "路飞磁力","name": "路飞_🧲磁力搜","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_p2p2_min.js","ext": ""},
 
        
-        {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"jar":"","ext":"https://cz01.me"},
-        {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"jar":"","filterable":1},
+        {"key":"csp_Kuaikan","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://cz01.me"},
+        {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
         
         
         
@@ -110,15 +111,7 @@
     
     
     
-    {
-      "key": "drpy_js_netlify",
-      "name": "荐片",
-      "type": 3,
-      "playerType":1,
-      "api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
-      "ext": "https://agit.ai/weigs/w/raw/branch/master/js/%e8%8d%90%e7%89%87.js"
-    },
-
+    
     
     {
           "key":"MV_vod",
