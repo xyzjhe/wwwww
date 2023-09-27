@@ -4,7 +4,7 @@
 //   正圓 "style":{ "type":"oval" }
 //   橢圓 "style":{ "type":"oval", "ratio":1.1 }
 {
-  "spider": "https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
+  "spider": "https://agit.ai/weigs/w/raw/branch/master/fm.jar",
   "wallpaper": "https://饭太硬.top/深色壁纸/api.php",
   
   "lives": [
@@ -19,14 +19,22 @@
   ],
 
   "sites": [
-   
+    { "key":"sp360",
+      "name":"360影视|解析",
+      "type":3,
+      "api":"csp_Sp360",
+      "searchable":1,
+      "filterable":1,
+      "changeable":1,
+      "jar": "https://agit.ai/weigs/w/raw/branch/master/921.jar"
+    },  
 {"key":"爱奇异","name":"爱奇艺(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/aiqiyi.js"},
 {"key":"优酷","name":"优酷(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/youku.js"},
 {"key":"腾讯","name":"腾讯(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/tengxun.js"},
 {"key":"芒果","name":"芒果(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/mangguo.js"},
 {"key":"搜狗","name":"搜狗(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/caigou.js"},
 {"key":"360影视","name":"360影视(官)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
-{"key":"sohu","name":"搜狐(官)","type":1,"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1,"playUrl":"parse:并发"},
+//{"key":"sohu","name":"搜狐(官)","type":1,"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1,"playUrl":"parse:并发"},
         
         {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
    
@@ -55,7 +63,7 @@
         
 
             
-        {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"","quickSearch":1,"filterable":1},
+        {"key":"csp_JianPian","name":"荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","quickSearch":1,"filterable":1},
 
         //{"key": "路飞ikanbot","name": "路飞_爱看","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/lib/lf_ikanbot5_1_min.js","ext": ""},
         {"key": "路飞转点播","name": "路飞_MV","type": 3,"api": "https://agit.ai/weigs/w/raw/branch/master/js/lf_live.js","ext": "https://wds.ecsxs.com/224120.txt","style":{"type":"oval","ratio":1}},
@@ -84,18 +92,18 @@
         
         
         
-        {"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"jar":"","filterable": 1},
-        {"key": "csp_New6v","name": "🧲新6V","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/6v.json"},
-        {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_KubaCL","name":"🧲酷吧电影","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_MeijuTT","name":"🧲美剧天堂","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_MeijuMi","name":"🧲美剧迷","type":3,"api":"csp_MeijuMi","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_BLSGod","name":"🧲80S影视","type":3,"api":"csp_BLSGod","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key":"csp_Xunlei8","name":"🧲迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"jar":"","filterable":1},
-        {"key": "csp_XYQHikerAL_4KHDR","name":"🧲4KHDR(盘/磁)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":0,"quickSearch":0,"filterable":1,"jar":"","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/4KHDR.json"},
-        {"key": "csp_XYQHiker_电影港","name":"🧲电影港(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/电影港磁力.json"},
-        {"key": "csp_XYQHiker_BT天堂","name":"🧲️BT天堂(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/BT天堂.json"},
-        {"key": "csp_XYQHiker_极影网","name":"🧲极影网(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/极影网.json"},
+        {"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable": 1},
+        {"key": "csp_New6v","name": "🧲新6V","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/6v.json"},
+        {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_KubaCL","name":"🧲酷吧电影","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_MeijuTT","name":"🧲美剧天堂","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_MeijuMi","name":"🧲美剧迷","type":3,"api":"csp_MeijuMi","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_BLSGod","name":"🧲80S影视","type":3,"api":"csp_BLSGod","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key":"csp_Xunlei8","name":"🧲迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","filterable":1},
+        {"key": "csp_XYQHikerAL_4KHDR","name":"🧲4KHDR(盘/磁)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":0,"quickSearch":0,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/4KHDR.json"},
+        {"key": "csp_XYQHiker_电影港","name":"🧲电影港(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/电影港磁力.json"},
+        {"key": "csp_XYQHiker_BT天堂","name":"🧲️BT天堂(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/BT天堂.json"},
+        {"key": "csp_XYQHiker_极影网","name":"🧲极影网(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar","ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/极影网.json"},
             
             
     
@@ -177,7 +185,7 @@
         "searchable": 1,
         "changeable": 0,
         "style":{ "type":"rect", "ratio":1.33 },
-        "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;211cb09b88752dd0d56201b84b0b3e47",
+        //"jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;211cb09b88752dd0d56201b84b0b3e47",
         "ext": {
                  "type": "帕梅拉#太极拳#广场舞#演唱会#萌七#王雨檬#Minana呀#贝拉小姐姐",
                  "cookie": "buvid3=5A7DF58C-14D6-23C1-BE29-31D9E9578C2997581infoc; b_nut=1683970697; CURRENT_FNVAL=4048; _uuid=F6EC89FA-83F6-2531-D341-349E26395CC798083infoc; buvid4=C77042B4-6C2D-C24A-0F86-E0A4B7E253A698377-023051317-ztKcD%2BAh2fSUh5SCSJ6FIQ%3D%3D; rpdid=|(YYR|mmYJ~0J'uY)Jm~|~||; i-wanna-go-back=-1; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; b_ut=5; buvid_fp_plain=undefined; CURRENT_QUALITY=80; hit-new-style-dyn=1; hit-dyn-v2=1; LIVE_BUVID=AUTO5016839809229220; home_feed_column=5; SESSDATA=2b9958a5%2C1709688405%2Cdbe9c%2A92CjAR8IgqmCED19VJUWi6JK6skrsyiX52VDWH4KViKmZxzzxH-NopGf_NxzW8FEqF_PkSVjctcS01ckVKVUIzUmRlTDdsd2czYThRRzIzWUl3M25OLVZ4ajFBLWlvd0tPZU54UThwUTdEUkhRb0E4b2RILVBLS01mNFAzSEIyVndtV3BVSjNBbUxnIIEC; bili_jct=6322cc0948a0f9a0392f292ce67696b7; sid=8sa3n650; bp_video_offset_29803158=838849633101807625; PVID=3; browser_resolution=1872-924; fingerprint=49d611e6002bd1170902c2a0be89af54; buvid_fp=ffd4d72041819ec06604c3a45724a51f; b_lsid=987110BA6_18AD5687753; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTYwNTY3MjAsImlhdCI6MTY5NTc5NzQ2MCwicGx0IjotMX0.qGHKVDQRq9wb41B9UnXoTGYlOgTHsgeba9VtsyNJu24; bili_ticket_expires=1696056660"
@@ -235,7 +243,7 @@
      "searchable": 0,
      "quickSearch": 0,
      "filterable": 0,
-    
+     "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
      "ext": "https://agit.ai/weigs/w/raw/branch/master/XYQHiker/网易CC直播.json"
      },
 { 
@@ -246,7 +254,7 @@
  "searchable":1, 
  "quickSearch":1, 
  "filterable":1, 
- //"jar":"https://agit.ai/weigs/w/raw/branch/master/xyq.jar",
+ "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
  "ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/ikan.json"
 
  },
@@ -292,7 +300,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			//"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+			"jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
 			"ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/小书备用源.json"
 		},
      {
@@ -304,7 +312,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			//"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+		  "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
 			"ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/小书测试源.json"
 		},
     
@@ -317,7 +325,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-       //"jar":"https://agit.ai/weigs/w/raw/branch/master/XYQH.jar",
+      "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
       
       "ext":"https://agit.ai/weigs/w/raw/branch/master/XYQHiker/乐猪TV.json"
     },
@@ -331,7 +339,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      //"jar": "https://agit.ai/weigs/w/raw/branch/master/xbpq.jar",
+      "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
       "ext": "https://agit.ai/weigs/w/raw/branch/master/xBPQ/短视频.json"
     },
 
@@ -340,8 +348,8 @@
       "name": "🛴手机┃推送",
       "type": 3,
       "api": "csp_Push",
-      "playerType": 1,
-      "searchable": 0,
+      
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
       "jar": "",
