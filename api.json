@@ -4,7 +4,7 @@
 //   正圓 "style":{ "type":"oval" }
 //   橢圓 "style":{ "type":"oval", "ratio":1.1 }
 {
-  "spider": "https://agit.ai/weigs/w/raw/branch/master/fm.jar",
+  "spider": "https://agit.ai/weigs/w/raw/branch/master/928.jar",
   "wallpaper": "https://饭太硬.top/深色壁纸/api.php",
   
   "lives": [
@@ -25,8 +25,8 @@
       "api":"csp_Sp360",
       "searchable":1,
       "filterable":1,
-      "changeable":1,
-      "jar": "https://agit.ai/weigs/w/raw/branch/master/921.jar"
+      "changeable":1
+      
     },  
 {"key":"爱奇异","name":"爱奇艺(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/aiqiyi.js"},
 {"key":"优酷","name":"优酷(官)","type":3,"api":"./lib/drpy2.min.js","ext":"http://weixine.link:33/js/youku.js"},
@@ -36,8 +36,16 @@
 {"key":"360影视","name":"360影视(官)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 //{"key":"sohu","name":"搜狐(官)","type":1,"api":"http://tvbox-1-g5221611.deta.app/vod/sohu","searchable":1,"quickSearch":1,"playUrl":"parse:并发"},
         
-        {"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
+{"key":"荐片","name":"俊于 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
    
+    {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕版|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
+      "token": "欢度中秋，喜迎国庆",
+      "filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json",
+      "danmu" : true
+    }},
+    //{"key":"荐片","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false}},
+    {"key":"荐片弹幕版","name":"荐片弹幕版","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}},
+        
         {"key":"爱看猫",
          "name": "爱看猫",
          "type": 3,
