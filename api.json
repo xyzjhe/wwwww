@@ -181,6 +181,43 @@
         "cookie": "buvid3=5A7DF58C-14D6-23C1-BE29-31D9E9578C2997581infoc; b_nut=1683970697; CURRENT_FNVAL=4048; _uuid=F6EC89FA-83F6-2531-D341-349E26395CC798083infoc; buvid4=C77042B4-6C2D-C24A-0F86-E0A4B7E253A698377-023051317-ztKcD%2BAh2fSUh5SCSJ6FIQ%3D%3D; rpdid=|(YYR|mmYJ~0J'uY)Jm~|~||; i-wanna-go-back=-1; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; b_ut=5; buvid_fp_plain=undefined; CURRENT_QUALITY=80; hit-new-style-dyn=1; hit-dyn-v2=1; LIVE_BUVID=AUTO5016839809229220; home_feed_column=5; SESSDATA=2b9958a5%2C1709688405%2Cdbe9c%2A92CjAR8IgqmCED19VJUWi6JK6skrsyiX52VDWH4KViKmZxzzxH-NopGf_NxzW8FEqF_PkSVjctcS01ckVKVUIzUmRlTDdsd2czYThRRzIzWUl3M25OLVZ4ajFBLWlvd0tPZU54UThwUTdEUkhRb0E4b2RILVBLS01mNFAzSEIyVndtV3BVSjNBbUxnIIEC; bili_jct=6322cc0948a0f9a0392f292ce67696b7; sid=8sa3n650; bp_video_offset_29803158=838849633101807625; PVID=3; browser_resolution=1872-924; fingerprint=49d611e6002bd1170902c2a0be89af54; buvid_fp=ffd4d72041819ec06604c3a45724a51f; b_lsid=987110BA6_18AD5687753; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTYwNTY3MjAsImlhdCI6MTY5NTc5NzQ2MCwicGx0IjotMX0.qGHKVDQRq9wb41B9UnXoTGYlOgTHsgeba9VtsyNJu24; bili_ticket_expires=1696056660"
       }
     },
+
+    {
+            "key": "哔哩哔哩",
+            "name": "哔站┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"https://agit.ai/weigs/w/raw/branch/master/ysc.jar",
+            "ext": {
+                     
+                      "首页":"热舞汇聚",
+                      "请求头":"电脑#Cookie$buvid3=B63E1C8B-9501-0869-E181-DA73644013F084305infoc; b_nut=1684911584; CURRENT_FNVAL=4048; _uuid=D1A2A3EC-10DED-2EA10-32110-4DC1056343CD986091infoc; buvid4=092C9A12-F9C6-7BA9-5191-C79EF44C1B4E85155-023052414-ztKcD%2BAh2fQyoBrGm9%2B%2BoA%3D%3D; buvid_fp=61b0e80c623d16de2514a1211f133216; rpdid=|(YYR|mmYYm0J'uY)Rmuul)); i-wanna-go-back=-1; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; home_feed_column=5; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; b_ut=5; CURRENT_QUALITY=80; browser_resolution=2560-1297; innersign=0; b_lsid=BC71710E2_188DDEAFCA5; SESSDATA=ef441a45%2C1702902378%2Cec5c4%2A62zjMeevWTln7rW4t3serNQE5PwxXxjf3BhHabN7Y16ucHoLsbYAocAlhwnWj0di5E61HEbgAAOgA; bili_jct=e607af83ee019d1b9828933324ac7599; sid=hm4v1f64; bp_video_offset_29803158=809649117071409300; PVID=2",
+                      "分类url":"https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword={cateId}&page={catePg}&duration={year}&order={by};;vS2",
+                      "搜索url":"https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword={wd}&page={pg}",
+                      "分类":"演唱会&歌曲MV&热舞汇聚&相声小品&体育联盟&动物自然&综艺汇聚&儿童汇聚&美食&太极&搞笑&软件教程&学前&小学&初中&高中",
+                      "类型":"演唱会--演唱会合集&红馆演唱会&Beyond演唱会&张学友演唱会&刘德华演唱会&谭咏麟演唱会&李克勤演唱会&伍佰演唱会&SHE演唱会||歌曲MV--经典老歌&滚石经典&新歌推荐&网红歌曲&流行歌曲&抖音热歌&音乐流行榜&国语歌曲&粤语歌曲&闽南语歌曲&情歌对唱&超清MV&古筝歌曲&酒廊情歌&山地情歌&卓依婷&新年歌曲||热舞汇聚--热舞&古风舞蹈&国风舞蹈&歌舞现场&两英歌舞&广场舞&芭蕾舞&拉丁舞&机械舞&舞蹈教程&韩国女团热舞||相声小品--春晚小品&春晚相声&爆笑相声&相声合集&小品合集||体育联盟--NBA&世界杯&天下足球&赛艇&马拉松&拳击&柔道&跆拳道&摔跤&高尔夫&WWE||动物自然--国宝熊猫&大自然&地球自然&宇宙探索&探索发现||综艺汇聚--诗词大会&典籍里的中国&我是歌手&中国梦想秀&非诚勿扰&王牌对王牌&极限挑战&脱口秀&中国好声音&中国新声代||儿童汇聚--儿童动画&儿童故事&儿童歌曲&儿童舞蹈&儿童玩具||软件教程--MT管理器&软件脱壳&TVBox修改&tvbox教程&JavaScript技巧&JavaScript案例||学前--儿童启蒙故事&儿童英语启蒙&儿童睡前故事&儿童安全教育||小学--沪教版&人教版&北师大版&外研版&苏教版&小学英语听力||初中--初一七年级&初二八年级&初三九年级&初中沪教版&初中人教版&初中北师大版&初中外研版&初中苏教版||高中--高一&高二&高三&高中信息技术||美食--美食博主&美食中国&特色美食&地方美食&广式美食&湘菜探店&川味&东北菜探店",
+                      "时长":"60分钟以上$4#30~60分钟$3#10~30分钟$2#10分钟以下$1",
+                      "排序":"综合排序$0#最多点击$click#最新发布$pubdate#最多弹幕$dm#最多收藏$stow",
+                      "数组":"type\"&&}",
+                      "标题":"title\":\"&&\",",
+                      "图片":"pic\":\"&&\"",
+                      "线路标题":"落叶播放",
+                      "副标题":"duration\":\"&&\"",
+                      "链接":"https://api.bilibili.com/x/web-interface/view?aid=+id\":&&,",
+                      "影片类型":"tname\":\"&&\"",
+                      "简介":"\"desc\":\"&&\"",
+                      "播放二次截取":"pages&&subtitle",
+                      "播放列表":"{&&}",
+                      "播放标题":"part\":\"&&\",",
+                      "播放链接":"https://api.bilibili.com/x/player/playurl?avid=+aid\":&&,整页+&cid=+cid\":&&,+&qn=120&fourk=1",
+                      "播放链接二次截取":"\"url\":\"&&\"",
+                      "播放请求头":"电脑#Referer$https://www.bilibili.com"
+
+            }
+
+
+
+        },
         {
          "key":"drpy_js_JustLive",
          "name":"直播 | JustLive[js]",
