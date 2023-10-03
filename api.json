@@ -182,14 +182,14 @@
       }
     },
     {
-      "key": "mybili_open",
-      "name": "My哔哩貓",
+      "key": "mybili",
+      "name": "My哔哩JS",
       "type": 3,
-      "api": "https://gitee.com/weigsn/ys/raw/master/js/mybili_open.js",
+      "api": "https://agit.ai/weigs/w/raw/branch/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 0,
-      "style":{ "type":"rect" }
       
+      "ext":"https://agit.ai/weigs/w/raw/branch/master/js/我的哔哩.js"
     },
     {
             "key": "哔哩哔哩",
