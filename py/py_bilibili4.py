@@ -2673,6 +2673,7 @@ class Spider(Spider):
                 result["parse"] = '1'
                 result['jx'] = '1'
                 result["header"] = str({"User-Agent": self.header["User-Agent"]})
+                result["danmaku"] = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + str(cid)
                 return result
             url = 'https://api.bilibili.com/pgc/player/web/playurl?aid={}&cid={}&qn=116&fnval=4048&fnver=0&fourk=1'.format(aid, cid)
         rsp = self._get_sth(url, 'vip')
@@ -2697,6 +2698,7 @@ class Spider(Spider):
         result["parse"] = '0'
         result["contentType"] = ''
         result["header"] = self.header
+        result["danmaku"] = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + str(cid)
         #回传播放记录
         self.pool.submit(self.start_heartbeat, aid, cid, ids)
         return result
