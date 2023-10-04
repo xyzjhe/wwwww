@@ -230,7 +230,7 @@ var rule = {
         vod.vod_play_from = 'B站';
         vod.vod_play_url = playUrl;
         VOD = vod;
-        vod.danmaku = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
+        
     `,
     搜索:'*',
     // 预处理:'if(rule_fetch_params.headers.Cookie.startsWith("http")){rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);setItem(RULE_CK,cookie)};log(rule_fetch_params.headers.Cookie)',
