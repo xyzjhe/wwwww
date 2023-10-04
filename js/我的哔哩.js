@@ -120,7 +120,7 @@ var rule = {
         result.parse = 0;
         result.playUrl = '';
         result.url = unescape(purl);
-        result.danmaku = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + str(cid);
+        
         result.header = {
             'Referer': 'https://live.bilibili.com',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
