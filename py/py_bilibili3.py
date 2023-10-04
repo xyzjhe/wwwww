@@ -953,6 +953,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 "Referer": "https://www.bilibili.com",
                 "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
             }
+            result["danmaku"] = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + str(cid)
             result["contentType"] = 'video/x-flv'
 
         elif self.box_video_type == '直播':
@@ -1023,6 +1024,7 @@ class Spider(Spider):  # 元类 默认的元类 type
                 "Referer": "https://www.bilibili.com",
                 "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
             }
+            result["danmaku"] = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + str(cid)
             result["contentType"] = 'video/x-flv'
         return result
 
