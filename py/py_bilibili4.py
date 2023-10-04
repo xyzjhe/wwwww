@@ -2691,7 +2691,7 @@ class Spider(Spider):
             self.get_dash_event.clear()
             get_dash = self.pool.submit(self.get_dash, ja)
             self.get_dash_event.wait()
-            result["url"] = f"{dirname}/playurl.mpd"
+            result["url"] = f"file://{dirname}/playurl.mpd"
         else:
             result["url"] = self.get_durl(jo.get('durl', {}))
         result["parse"] = '0'
