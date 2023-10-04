@@ -126,7 +126,7 @@ var rule = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
         };
 
-        result.danmaku = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + vod.cid;
+        
         result.contentType = 'video/x-flv';
         input = result
     `,
@@ -230,6 +230,7 @@ var rule = {
         vod.vod_play_from = 'B站';
         vod.vod_play_url = playUrl;
         VOD = vod;
+        danmaku = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
     `,
     搜索:'*',
     // 预处理:'if(rule_fetch_params.headers.Cookie.startsWith("http")){rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);setItem(RULE_CK,cookie)};log(rule_fetch_params.headers.Cookie)',
