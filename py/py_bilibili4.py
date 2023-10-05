@@ -1340,8 +1340,7 @@ class Spider(Spider):
         if not pg.isdigit():
             value = pg
             pg = 1
-        query = self.encrypt_wbi(keyword=key, page=pg, duration=duration_diff, order=order, search_type=type, page_size=ps)
-        url = f'https://api.bilibili.com/x/web-interface/wbi/search/type?{query}'
+        url = 'https://api.bilibili.com/x/web-interface/search/type?keyword={}&page={}&duration={}&order={}&search_type={}&page_size={}'.format(key, pg, duration_diff, order, type, ps)
         rsp = self._get_sth(url, 'fake')
         content = rsp.text
         jo = json.loads(content)
