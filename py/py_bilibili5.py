@@ -1283,7 +1283,7 @@ class Spider(Spider):
                 return self.get_Login_qrcode(pg)
             return self.get_dynamic(pg=pg, mid=mid, order=order)
         elif tid == '频道':
-            order = 'new'
+            order = 'featured'
             cid = random.choice(self.userConfig['channel_list'])
             cid = cid['v']
             if 'order' in extend:
