@@ -54,19 +54,22 @@ class Spider(Spider):
         'showLiveFilterTag': '0',
         #主页标签排序, 未登录或cookie失效时自动隐藏动态、收藏、关注、历史
         'cateManual': [
+            "动态",
             "推荐",
+            "搜索",
             "影视",
             "直播",
-            "动态",
+            
             "频道",
             "收藏",
             "关注",
             "历史",
-            "搜索",
+            
         ],
         #自定义推荐标签的筛选
         'tuijianLis': [
             "热门",
+            "推荐",
             "排行榜",
             "每周必看",
             "入站必刷",
@@ -100,7 +103,17 @@ class Spider(Spider):
     ]
     
     #在搜索标签的筛选中固定显示搜索词
-    focus_on_search_key = []
+    focus_on_search_key = [
+
+        '抖音热歌',
+        '经典无损音乐合集',
+        '萌七',
+        '王雨檬',
+        'Minana呀',
+        '贝拉小姐姐',
+
+
+    ]
 
     def getName(self):
         return "哔哩哔哩"
