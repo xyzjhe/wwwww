@@ -1129,9 +1129,9 @@ class Spider(Spider):
         if str(pg) == '1':
             self.channel_offset = ''
         if order == "featured":
-            url = 'https://api.bilibili.com/x/web-interface/web/channel/featured/list?channel_id={0}&filter_type=0&offset={1}&page_size={2}'.format(cid, self.channel_offset, self.userConfig['page_size'])
+            url = 'https://api.bilibili.com/x/web-interface/web/channel/featured/list?channel_id={0}&filter_type=0&offset={1}&page_size='.format(cid, self.channel_offset, self.userConfig['page_size'])
         else:
-            url = 'https://api.bilibili.com/x/web-interface/web/channel/multiple/list?channel_id={0}&sort_type={1}&offset={2}&page_size={3}'.format(cid, order, self.channel_offset, self.userConfig['page_size'])
+            url = 'https://api.bilibili.com/x/web-interface/web/channel/multiple/list?channel_id={0}&sort_type={1}&offset={2}&page_size='.format(cid, order, self.channel_offset, self.userConfig['page_size'])
         rsp = self._get_sth(url, 'fake')
         jo = json.loads(rsp.text)
         if jo.get('code') == 0:
