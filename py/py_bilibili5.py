@@ -319,7 +319,7 @@ class Spider(Spider):
         return channel_dict
 
     def get_channel_list(self):
-        url = 'https://api.bilibili.com/x/web-interface/web/channel/category/channel/list?id=100&offset=0&page_size=15'
+        url = 'https://api.bilibili.com/x/web-interface/web/channel/category/channel/list?id=100&offset=0&page_size=95'
         rsp = self._get_sth(url, 'fake')
         jo = json.loads(rsp.text)
         channel_list = []
@@ -1283,7 +1283,7 @@ class Spider(Spider):
                 return self.get_Login_qrcode(pg)
             return self.get_dynamic(pg=pg, mid=mid, order=order)
         elif tid == '频道':
-            order = 'featured'
+            order = 'new'
             cid = random.choice(self.userConfig['channel_list'])
             cid = cid['v']
             if 'order' in extend:
